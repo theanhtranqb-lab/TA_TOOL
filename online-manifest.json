@@ -1,0 +1,8 @@
+{
+    "schema":  1,
+    "product":  "TA-TOOL-V1",
+    "version":  "1.2.0",
+    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.2.0/TA_Tool_Update_1.2.0.zip",
+    "sha256":  "910C6D76EB349E54DAEC92A88F0B101CA850C650A0F7CA297CBB5D4076ABFEE5",
+    "notes":  "Cập nhật TA Tool phiên bản 1.2.0"
+}
