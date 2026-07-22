@@ -1,8 +1,8 @@
 {
-    "schema":  1,
-    "product":  "TA-TOOL-V1",
-    "version":  "1.2.0",
-    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.2.0/TA_Tool_Update_1.2.0.zip",
-    "sha256":  "910C6D76EB349E54DAEC92A88F0B101CA850C650A0F7CA297CBB5D4076ABFEE5",
-    "notes":  "Cập nhật TA Tool phiên bản 1.2.0"
+  "schema": 1,
+  "product": "TA-TOOL-V1",
+  "version": "1.3.5",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.3.5/TA_Tool_Update_1.3.5.zip",
+  "sha256": "233112BF6D4F6FA73C7E2F7D3949A834B01952F0BB710FF9B6485297F8CD1CB5",
+  "notes": "Sửa lỗi AutoCAD 2024 báo thiếu TA2026_Vr3.dll; bộ nạp tự chọn đúng DLL; tích hợp Sheet Set cho CAD 2022-2024; build lại toàn bộ DLL và VLX."
 }
