@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.0",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.0/TA_Tool_Update_1.4.0.zip",
-  "sha256": "316D077AB3BE0EF663953271BA81F16F4CEAA92CFFB438E08DE41238AB953357",
-  "notes": "Them Ma vat lieu cho thu vien Hatch; them tab Ky hieu; them KHS/KYHIEUSAN va KHT/KYHIEUTRAN; KHC dung block cau hinh."
+  "version": "1.4.3",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3/TA_Tool_Update_1.4.3.zip",
+  "sha256": "1B9213E962581873B05BD039C4FFA78E1E3371741CD814F39C7E8C1B417B5CFD",
+  "notes": "Sua co che nap kieu net: tu dong dung cung he acad.lin hoac acadiso.lin voi ban ve; khong tron hai he; giu LTSCALE=5, MSLTSCALE=1, PSLTSCALE=1 va CANNOSCALE=1:100."
 }
