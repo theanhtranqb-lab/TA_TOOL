@@ -1,8 +1,8 @@
 {
     "schema":  1,
     "product":  "TA-TOOL-V1",
-    "version":  "1.4.3.2",
-    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.2/TA_Tool_Update_1.4.3.2.zip",
-    "sha256":  "7B3FD480A72647A958ECB1573732243F26F6AB806FBDEC90553AC7E3845A5FD4",
-    "notes":  "Bo sung heartbeat 2 phut tu DLL AutoCAD de xac dinh Online/Offline chinh xac; gui ma lien ket key da bam; ho tro AutoCAD 2022-2026."
+    "version":  "1.4.3.5",
+    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.5/TA_Tool_Update_1.4.3.5.zip",
+    "sha256":  "4D8B1AB1073C94F8C840D794A3DA0228EA2F98F4C8436BE384315482E456ECE7",
+    "notes":  "WW/WW1 dong kin bang C; WF gop Polyline thang vao tuong lan can va dong bo XData tuong/cua sau khi dung S; gom cac sua loi TAOPTION va heartbeat cua cac ban noi bo 1.4.3.2-1.4.3.4."
 }
