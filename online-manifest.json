@@ -1,8 +1,8 @@
 {
     "schema":  1,
     "product":  "TA-TOOL-V1",
-    "version":  "1.4.3.5",
-    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.5/TA_Tool_Update_1.4.3.5.zip",
-    "sha256":  "4D8B1AB1073C94F8C840D794A3DA0228EA2F98F4C8436BE384315482E456ECE7",
-    "notes":  "WW/WW1 dong kin bang C; WF gop Polyline thang vao tuong lan can va dong bo XData tuong/cua sau khi dung S; gom cac sua loi TAOPTION va heartbeat cua cac ban noi bo 1.4.3.2-1.4.3.4."
+    "version":  "1.4.3.6",
+    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.6/TA_Tool_Update_1.4.3.6.zip",
+    "sha256":  "22070A1816896C7AE54CD0018E687C9B74D59A76BF82384442042646B37E6CFB",
+    "notes":  "Hatch nhanh mac dinh pick diem trong vung kin; go O de chuyen sang che do chon doi tuong duong bao."
 }
