@@ -1,8 +1,8 @@
 {
     "schema":  1,
     "product":  "TA-TOOL-V1",
-    "version":  "1.4.3.1",
-    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.1/TA_Tool_Update_1.4.3.1.zip",
-    "sha256":  "3B4AA01FE269ADE4CDC51BAA9CBCABD35F4F55621667C02F2503E807A90E2F62",
-    "notes":  "Bo sung 00_SYS.LSP tu tao/cap nhat 9 layer dung kieu net khi VLX duoc load; giu nguyen co che layer trong DLL; tiep tuc tu nhan dien acad.lin/acadiso.lin."
+    "version":  "1.4.3.2",
+    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.2/TA_Tool_Update_1.4.3.2.zip",
+    "sha256":  "7B3FD480A72647A958ECB1573732243F26F6AB806FBDEC90553AC7E3845A5FD4",
+    "notes":  "Bo sung heartbeat 2 phut tu DLL AutoCAD de xac dinh Online/Offline chinh xac; gui ma lien ket key da bam; ho tro AutoCAD 2022-2026."
 }
