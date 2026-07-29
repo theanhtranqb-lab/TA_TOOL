@@ -1,8 +1,8 @@
 {
-  "schema": 1,
-  "product": "TA-TOOL-V1",
-  "version": "1.4.3",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3/TA_Tool_Update_1.4.3.zip",
-  "sha256": "1B9213E962581873B05BD039C4FFA78E1E3371741CD814F39C7E8C1B417B5CFD",
-  "notes": "Sua co che nap kieu net: tu dong dung cung he acad.lin hoac acadiso.lin voi ban ve; khong tron hai he; giu LTSCALE=5, MSLTSCALE=1, PSLTSCALE=1 va CANNOSCALE=1:100."
+    "schema":  1,
+    "product":  "TA-TOOL-V1",
+    "version":  "1.4.3.1",
+    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.1/TA_Tool_Update_1.4.3.1.zip",
+    "sha256":  "3B4AA01FE269ADE4CDC51BAA9CBCABD35F4F55621667C02F2503E807A90E2F62",
+    "notes":  "Bo sung 00_SYS.LSP tu tao/cap nhat 9 layer dung kieu net khi VLX duoc load; giu nguyen co che layer trong DLL; tiep tuc tu nhan dien acad.lin/acadiso.lin."
 }
