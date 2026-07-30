@@ -1,8 +1,8 @@
 {
     "schema":  1,
     "product":  "TA-TOOL-V1",
-    "version":  "1.4.3.7",
-    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.7/TA_Tool_Update_1.4.3.7.zip",
-    "sha256":  "BB855EAC24FEF082FAFDE0B185367713594A4DFA8538B4B3E72C46D8344C551C",
-    "notes":  "Sua loi TAOPTION luu cai dat nhung lenh chua cap nhat; dong bo TDS voi NTD va cac nhom Kien truc, DMBV, R2L/S2L, VEC."
+    "version":  "1.4.3.8",
+    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.8/TA_Tool_Update_1.4.3.8.zip",
+    "sha256":  "53716D0681EA3BB6DD27DCE2B22D597A9A7A74FBEACA2AABCC7982E55A8DF217",
+    "notes":  "Hatch nhanh mac dinh pick diem trong vung kin, go O de chon doi tuong; sua loi TAOPTION luu nhung lenh chua cap nhat; dong bo TDS/NTD, Kien truc, DMBV, R2L/S2L, VEC va Quy hoach."
 }
