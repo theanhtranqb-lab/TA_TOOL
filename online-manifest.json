@@ -1,8 +1,8 @@
 {
     "schema":  1,
     "product":  "TA-TOOL-V1",
-    "version":  "1.4.3.15",
-    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.15/TA_Tool_Update_1.4.3.15.zip",
-    "sha256":  "3738A45A806FF25FDBC41C7C47E306423293068D4D22812931F44687E6EA5D7A",
-    "notes":  "Bo sung thu vien CAD va cac mau hatch tu dong nap tren may khach."
+    "version":  "1.4.3.16",
+    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.16/TA_Tool_Update_1.4.3.16.zip",
+    "sha256":  "4E8669C447285FB470535999AFB011AD2577FC2F9810D04F5E8EF299384B0B88",
+    "notes":  "Sua loi TAOPTION tu mo lai; chuyen IB sang DLL va them thu vien DWG; them CHANGESCALE; KHC ho tro block cua khong co XData."
 }
