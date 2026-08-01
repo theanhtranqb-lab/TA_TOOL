@@ -1,8 +1,8 @@
 {
     "schema":  1,
     "product":  "TA-TOOL-V1",
-    "version":  "1.4.3.8",
-    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.8/TA_Tool_Update_1.4.3.8.zip",
-    "sha256":  "53716D0681EA3BB6DD27DCE2B22D597A9A7A74FBEACA2AABCC7982E55A8DF217",
-    "notes":  "Hatch nhanh mac dinh pick diem trong vung kin, go O de chon doi tuong; sua loi TAOPTION luu nhung lenh chua cap nhat; dong bo TDS/NTD, Kien truc, DMBV, R2L/S2L, VEC va Quy hoach."
+    "version":  "1.4.3.15",
+    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.15/TA_Tool_Update_1.4.3.15.zip",
+    "sha256":  "3738A45A806FF25FDBC41C7C47E306423293068D4D22812931F44687E6EA5D7A",
+    "notes":  "Bo sung thu vien CAD va cac mau hatch tu dong nap tren may khach."
 }
