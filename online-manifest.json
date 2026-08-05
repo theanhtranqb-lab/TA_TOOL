@@ -1,8 +1,8 @@
 {
-    "schema":  1,
-    "product":  "TA-TOOL-V1",
-    "version":  "1.4.3.16",
-    "packageUrl":  "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.16/TA_Tool_Update_1.4.3.16.zip",
-    "sha256":  "4E8669C447285FB470535999AFB011AD2577FC2F9810D04F5E8EF299384B0B88",
-    "notes":  "Sua loi TAOPTION tu mo lai; chuyen IB sang DLL va them thu vien DWG; them CHANGESCALE; KHC ho tro block cua khong co XData."
+  "schema": 1,
+  "product": "TA-TOOL-V1",
+  "version": "1.4.3.24",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.24/TA_Tool_Update_1.4.3.24.zip",
+  "sha256": "20CA0CC66A59F273A09A9454C01379FCBBB0559F2859EC0F9EF337693096F8BB",
+  "notes": "AD/AD2/AD4/AW: them danh sach bat diem 110,600,900,CE trong TA_OPTION; Space dao Flip State, rieng AD dao Flip State hai lan roi Flip State 1; kem cac cai tien INNHANH tu ban noi bo 1.4.3.18-23."
 }
