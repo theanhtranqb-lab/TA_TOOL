@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.24",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.24/TA_Tool_Update_1.4.3.24.zip",
-  "sha256": "20CA0CC66A59F273A09A9454C01379FCBBB0559F2859EC0F9EF337693096F8BB",
-  "notes": "AD/AD2/AD4/AW: them danh sach bat diem 110,600,900,CE trong TA_OPTION; Space dao Flip State, rieng AD dao Flip State hai lan roi Flip State 1; kem cac cai tien INNHANH tu ban noi bo 1.4.3.18-23."
+  "version": "1.4.3.25",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.25/TA_Tool_Update_1.4.3.25.zip",
+  "sha256": "60F48D742E4E0AF099FF3A5C42DDB52ED181A9F4E305E4DF64B600FF516721AA",
+  "notes": "Them lenh A0 tao khoang trong tren tuong bang moc 110,600,900,CE hoac diem pick truc tiep; XoaCua cho phep xoa lien tiep nhieu cua/lo mo va ket thuc bang Space, Enter hoac Esc."
 }
