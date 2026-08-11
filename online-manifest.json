@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.31",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.31/TA_Tool_Update_1.4.3.31.zip",
-  "sha256": "A5EB7CE69FAA0865D3328D849DD14DB3C9538C2D41A9799AE4BB6D6AE9FCCFF3",
-  "notes": "Sua loi AutoCAD Access Violation con lai khi nhan phim trai/phai trong preview AD/AD2/AD3/AD4/ADW/AW va VK/TAVK; chan phim mui ten khoi native drag loop, cho AcquirePoint hoan tat roi moi tao lai preview; dong bo AutoCAD 2022-2026."
+  "version": "1.4.3.32",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.32/TA_Tool_Update_1.4.3.32.zip",
+  "sha256": "762466774F009640C47041B60C26D0B6018F6C8230E7616D6069F278F78C0400",
+  "notes": "Bo hoan toan xu ly phim mui ten trong preview cua/vach kinh va khoi phuc Space on dinh; them option B nhap be rong va G nhap khoang cach tu mep cua den goc tuong cho AD/AD2/AD3/AD4/ADW/AW; dong bo AutoCAD 2022-2026."
 }
