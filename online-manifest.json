@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.29",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.29/TA_Tool_Update_1.4.3.29.zip",
-  "sha256": "F6D52168F99CBCAD7FA48BE9579659454C37FBFEDBC79538BBCF818BB4E2C9C9",
-  "notes": "Bo sung ban kinh tim tuong de noi/chem goc trong TA_OPTION, mac dinh 2000 mm; ap dung cho TAW/WW va TAW1/WW1; dong bo AutoCAD 2022-2026."
+  "version": "1.4.3.30",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.30/TA_Tool_Update_1.4.3.30.zip",
+  "sha256": "610A184AD28ACEA5D5B4E7A2651459B442403EF1CA47AB0A33DFF6BCDA6D25BE",
+  "notes": "Sua loi AutoCAD Access Violation khi nhan phim mui ten trai/phai trong preview AD/AD2/AD3/AD4/ADW/AW va VK/TAVK; bo co che PostMessage Enter gia, xu ly truc tiep trong jig; dong bo AutoCAD 2022-2026."
 }
