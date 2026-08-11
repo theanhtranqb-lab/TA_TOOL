@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.28",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.28/TA_Tool_Update_1.4.3.28.zip",
-  "sha256": "150DA1E5B92B0EE0283464445E15A0E5CDC6C36ED99BC18851A2EA908307BAA8",
-  "notes": "Doi lenh tao khoang trong tu A0/TA0 sang AO/TAO; AD/AD2/AD3/AD4/ADW/AW dung phim mui ten trai/phai de chuyen moc bat diem trong preview, Space doi Flip, Enter de dat; VK/TAVK dung phim mui ten de chuyen vi tri vach; dong bo AutoCAD 2022-2026."
+  "version": "1.4.3.29",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.29/TA_Tool_Update_1.4.3.29.zip",
+  "sha256": "F6D52168F99CBCAD7FA48BE9579659454C37FBFEDBC79538BBCF818BB4E2C9C9",
+  "notes": "Bo sung ban kinh tim tuong de noi/chem goc trong TA_OPTION, mac dinh 2000 mm; ap dung cho TAW/WW va TAW1/WW1; dong bo AutoCAD 2022-2026."
 }
