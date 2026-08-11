@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.27",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.27/TA_Tool_Update_1.4.3.27.zip",
-  "sha256": "4894FE98D8DE3AAC7D274F3D1330728776106EC3A9CF68AF5B546064AC238A40",
-  "notes": "Bo sung ma may day du trong telemetry de TA License Manager va TA Tool Support hien thi dung cac may moi chua kich hoat key; dong bo cho AutoCAD 2022-2026."
+  "version": "1.4.3.28",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.28/TA_Tool_Update_1.4.3.28.zip",
+  "sha256": "150DA1E5B92B0EE0283464445E15A0E5CDC6C36ED99BC18851A2EA908307BAA8",
+  "notes": "Doi lenh tao khoang trong tu A0/TA0 sang AO/TAO; AD/AD2/AD3/AD4/ADW/AW dung phim mui ten trai/phai de chuyen moc bat diem trong preview, Space doi Flip, Enter de dat; VK/TAVK dung phim mui ten de chuyen vi tri vach; dong bo AutoCAD 2022-2026."
 }
