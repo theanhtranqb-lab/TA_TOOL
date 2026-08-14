@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.32",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.32/TA_Tool_Update_1.4.3.32.zip",
-  "sha256": "762466774F009640C47041B60C26D0B6018F6C8230E7616D6069F278F78C0400",
-  "notes": "Bo hoan toan xu ly phim mui ten trong preview cua/vach kinh va khoi phuc Space on dinh; them option B nhap be rong va G nhap khoang cach tu mep cua den goc tuong cho AD/AD2/AD3/AD4/ADW/AW; dong bo AutoCAD 2022-2026."
+  "version": "1.4.3.33",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.33/TA_Tool_Update_1.4.3.33.zip",
+  "sha256": "321F13ADBBA72F1F73F850DBBB124D11FB2BBCA8BDDEA12CC7A86AB202618A0E",
+  "notes": "Sua loi dong TAOPTION khong tu tao lai form con; them XOABLOCKTRONGFILE de chon nhieu DWG, loc block va xoa hang loat; dong bo AutoCAD 2022-2026."
 }
