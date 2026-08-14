@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.33",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.33/TA_Tool_Update_1.4.3.33.zip",
-  "sha256": "321F13ADBBA72F1F73F850DBBB124D11FB2BBCA8BDDEA12CC7A86AB202618A0E",
-  "notes": "Sua loi dong TAOPTION khong tu tao lai form con; them XOABLOCKTRONGFILE de chon nhieu DWG, loc block va xoa hang loat; dong bo AutoCAD 2022-2026."
+  "version": "1.4.3.34",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.34/TA_Tool_Update_1.4.3.34.zip",
+  "sha256": "57FE3F84302F82C1FCDD66B0F03F693FB11BCC0EA5721C791DE584AADA809959",
+  "notes": "Mo rong INNHANH: chon khong gian Model, Layout hoac ca hai; tu tim khung trong khong gian da chon; preview va plot dung Layout nguon; tuong thich AutoCAD 2022-2026."
 }
