@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.34",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.34/TA_Tool_Update_1.4.3.34.zip",
-  "sha256": "57FE3F84302F82C1FCDD66B0F03F693FB11BCC0EA5721C791DE584AADA809959",
-  "notes": "Mo rong INNHANH: chon khong gian Model, Layout hoac ca hai; tu tim khung trong khong gian da chon; preview va plot dung Layout nguon; tuong thich AutoCAD 2022-2026."
+  "version": "1.4.3.35",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.35/TA_Tool_Update_1.4.3.35.zip",
+  "sha256": "0463FFA650B1A29774E32D87EBF456F7B8F27021B45A63BC06EFFBC70261221D",
+  "notes": "Sua INNHANH: kich hoat dung Layout va Paper Space de tranh eLayoutNotCurrent; ho tro Them file bang Session context; dong file ngoai khong luu; tuong thich AutoCAD 2022-2026."
 }
