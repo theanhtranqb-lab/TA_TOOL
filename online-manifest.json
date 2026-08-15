@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.35",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.35/TA_Tool_Update_1.4.3.35.zip",
-  "sha256": "0463FFA650B1A29774E32D87EBF456F7B8F27021B45A63BC06EFFBC70261221D",
-  "notes": "Sua INNHANH: kich hoat dung Layout va Paper Space de tranh eLayoutNotCurrent; ho tro Them file bang Session context; dong file ngoai khong luu; tuong thich AutoCAD 2022-2026."
+  "version": "1.4.3.36",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.36/TA_Tool_Update_1.4.3.36.zip",
+  "sha256": "16CBDC11726F3BB79FBEB6663BF116BA0BFEDE6D1F52AC737AB73B259A35B947",
+  "notes": "Mo rong INNHANH: preview Rectang khi pick; them loai Xref, tu tim va preview Xref trong Model/Layout; All nhan Block, Rectang va Xref; tuong thich AutoCAD 2022-2026."
 }
