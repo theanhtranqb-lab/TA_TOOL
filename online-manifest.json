@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.36",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.36/TA_Tool_Update_1.4.3.36.zip",
-  "sha256": "16CBDC11726F3BB79FBEB6663BF116BA0BFEDE6D1F52AC737AB73B259A35B947",
-  "notes": "Mo rong INNHANH: preview Rectang khi pick; them loai Xref, tu tim va preview Xref trong Model/Layout; All nhan Block, Rectang va Xref; tuong thich AutoCAD 2022-2026."
+  "version": "1.4.3.37",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.37/TA_Tool_Update_1.4.3.37.zip",
+  "sha256": "B88E1885E576251D285EBCC483A30F64D380DC9C99108C9CDABD97728F66D426",
+  "notes": "DTS hien thi cay Subset/Sheet; tich hop TACHGOPSHEETSET hai cot, chuyen Sheet/Subset hai chieu, sap xep va backup; AutoCAD 2022-2026."
 }
