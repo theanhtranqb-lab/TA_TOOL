@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.37",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.37/TA_Tool_Update_1.4.3.37.zip",
-  "sha256": "B88E1885E576251D285EBCC483A30F64D380DC9C99108C9CDABD97728F66D426",
-  "notes": "DTS hien thi cay Subset/Sheet; tich hop TACHGOPSHEETSET hai cot, chuyen Sheet/Subset hai chieu, sap xep va backup; AutoCAD 2022-2026."
+  "version": "1.4.3.38",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.38/TA_Tool_Update_1.4.3.38.zip",
+  "sha256": "8B63444D7E1B090C3F21F8BACE7369E14F69C93CF62320EEA1A5F7E253AC7DC4",
+  "notes": "R2LS/TA-Option: them Field ty le ban ve theo kho giay va StandardScale cua viewport, chinh bang Field khong nhay dong; them DOI_LAYERBYBLOCK va DOIALL_LAYERBYBLOCK vao DLL chung; AutoCAD 2022-2026."
 }
