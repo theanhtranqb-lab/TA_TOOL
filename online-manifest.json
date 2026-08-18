@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.39",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.39/TA_Tool_Update_1.4.3.39.zip",
-  "sha256": "4B52FC1858AB92CA8152B2C9A15D186B06E892D7B3E48D8FAF914F53FEF3CB03",
-  "notes": "R2LS hotfix: Field ty le hien thi dung dang A3 1:50; thay StandardScale enum bang Field tinh tu CustomScale cua viewport; tu dong cap nhat theo viewport; AutoCAD 2022-2026."
+  "version": "1.4.3.40",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.40/TA_Tool_Update_1.4.3.40.zip",
+  "sha256": "9475507EE1C5A900415533F80A70170FE589979E3BFA00E4C9891B332973B908",
+  "notes": "R2LS: Field ty le dung truc tiep CustomScale voi dinh dang %sn theo lenh Lisp GT; hien thi A3 1:50 cho viewport ty le chuan; AutoCAD 2022-2026."
 }
