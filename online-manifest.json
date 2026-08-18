@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.40",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.40/TA_Tool_Update_1.4.3.40.zip",
-  "sha256": "9475507EE1C5A900415533F80A70170FE589979E3BFA00E4C9891B332973B908",
-  "notes": "R2LS: Field ty le dung truc tiep CustomScale voi dinh dang %sn theo lenh Lisp GT; hien thi A3 1:50 cho viewport ty le chuan; AutoCAD 2022-2026."
+  "version": "1.4.3.41",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.41/TA_Tool_Update_1.4.3.41.zip",
+  "sha256": "A3BE05241B54EA44F829A56C1EB523498515911E20E798E92672C802DD32D37B",
+  "notes": "Change_font_Dwg: doi font CFA+ hang loat bang database nen, khong mo tung DWG; ho tro them file/thu muc, thu muc con va Width; AutoCAD 2022-2026."
 }
