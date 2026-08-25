@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.41",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.41/TA_Tool_Update_1.4.3.41.zip",
-  "sha256": "A3BE05241B54EA44F829A56C1EB523498515911E20E798E92672C802DD32D37B",
-  "notes": "Change_font_Dwg: doi font CFA+ hang loat bang database nen, khong mo tung DWG; ho tro them file/thu muc, thu muc con va Width; AutoCAD 2022-2026."
+  "version": "1.4.3.42",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.42/TA_Tool_Update_1.4.3.42.zip",
+  "sha256": "B3B324C7C9E31919BC787FCA9B907065D3C2EF35E1A0EE1F1857AD443EDA702E",
+  "notes": "IN_NHANH Preview: an hop thoai, cho phep Pan/Zoom; Space, Enter hoac Esc quay lai hop thoai in; ke thua day du v1.4.3.41; AutoCAD 2022-2026."
 }
