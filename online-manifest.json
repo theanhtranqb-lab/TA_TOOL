@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.50",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.50/TA_Tool_Update_1.4.3.50.zip",
-  "sha256": "BD86A5D481A752E5C88D50B063F3B1547F68E7D780EEB72C24133A46065891E7",
+  "version": "1.4.3.51",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.51/TA_Tool_Update_1.4.3.51.zip",
+  "sha256": "92C0ACCF3F6052B26D0627DE53DA8B649ACC90CE37AF44EEBA2FA9A359DEB1B1",
   "notes": "IN_NHANH: chon layer Rectang, chon vi tri va ten tep PDF; hop nhat cap nhat lenh Ten phong; AutoCAD 2022-2026."
 }
