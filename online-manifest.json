@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.49",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.49/TA_Tool_Update_1.4.3.49.zip",
-  "sha256": "8D2E745A2A85F8BDF3EC52F213A881330472C06FC234BB2B436E70240B6AFF7E",
-  "notes": "IN_NHANH: chon Model/Layout, khung Block/Rectang/Xref, Preview Pan/Zoom, sua trang trang, tu dong chieu giay, transparency, PDF A3 va chon vi tri/ten tep PDF; giao dien Viet hoa; AutoCAD 2022-2026."
+  "version": "1.4.3.50",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.50/TA_Tool_Update_1.4.3.50.zip",
+  "sha256": "BD86A5D481A752E5C88D50B063F3B1547F68E7D780EEB72C24133A46065891E7",
+  "notes": "IN_NHANH: chon layer Rectang, chon vi tri va ten tep PDF; hop nhat cap nhat lenh Ten phong; AutoCAD 2022-2026."
 }
