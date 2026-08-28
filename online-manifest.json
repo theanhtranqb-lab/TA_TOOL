@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.51",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.51/TA_Tool_Update_1.4.3.51.zip",
-  "sha256": "92C0ACCF3F6052B26D0627DE53DA8B649ACC90CE37AF44EEBA2FA9A359DEB1B1",
-  "notes": "IN_NHANH: chon layer Rectang, chon vi tri va ten tep PDF; hop nhat cap nhat lenh Ten phong; AutoCAD 2022-2026."
+  "version": "1.4.3.52",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.52/TA_Tool_Update_1.4.3.52.zip",
+  "sha256": "FD41999AE93399B4DB1B2611A5EFF45D0867429F2779CA4C511301E58D4A099E",
+  "notes": "Sửa WW/WW1 tuân thủ bán kính nối tường; thêm THEMTUONG gộp hộp kỹ thuật và tường đắp nổi, tự bỏ nét trùng ở giữa."
 }
