@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.52",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.52/TA_Tool_Update_1.4.3.52.zip",
-  "sha256": "FD41999AE93399B4DB1B2611A5EFF45D0867429F2779CA4C511301E58D4A099E",
-  "notes": "Sửa WW/WW1 tuân thủ bán kính nối tường; thêm THEMTUONG gộp hộp kỹ thuật và tường đắp nổi, tự bỏ nét trùng ở giữa."
+  "version": "1.4.3.53",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.53/TA_Tool_Update_1.4.3.53.zip",
+  "sha256": "FB3CB9202A40438B29DC00A4D41F1582D6C95C595DBBA97CAF70E1DCDB104085",
+  "notes": "Sửa lỗi CTX/SUBR; chuyển Lisp sang chỉ kiểm tra bản quyền, bỏ thời hạn dùng thử; bổ sung kiểm tra cho 137 định nghĩa lệnh và dừng an toàn khi license không hợp lệ."
 }
