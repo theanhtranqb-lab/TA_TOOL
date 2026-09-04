@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.53",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.53/TA_Tool_Update_1.4.3.53.zip",
-  "sha256": "FB3CB9202A40438B29DC00A4D41F1582D6C95C595DBBA97CAF70E1DCDB104085",
-  "notes": "Sửa lỗi CTX/SUBR; chuyển Lisp sang chỉ kiểm tra bản quyền, bỏ thời hạn dùng thử; bổ sung kiểm tra cho 137 định nghĩa lệnh và dừng an toàn khi license không hợp lệ."
+  "version": "1.4.3.54",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.54/TA_Tool_Update_1.4.3.54.zip",
+  "sha256": "9CA7D6E4B67DF6C7DBAF01C6AD84218FDBBC0FA2BD7AFFB99EC6BFB52BEF8060",
+  "notes": "Tích hợp VLX mới nhất; sửa cầu nối xác thực bản quyền trong vùng VLX, nhận ResultBuffer dạng danh sách và khắc phục CTX/STX từ chối khi license hợp lệ."
 }
