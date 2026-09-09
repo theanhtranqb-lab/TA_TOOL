@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.54",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.54/TA_Tool_Update_1.4.3.54.zip",
-  "sha256": "9CA7D6E4B67DF6C7DBAF01C6AD84218FDBBC0FA2BD7AFFB99EC6BFB52BEF8060",
-  "notes": "Tích hợp VLX mới nhất; sửa cầu nối xác thực bản quyền trong vùng VLX, nhận ResultBuffer dạng danh sách và khắc phục CTX/STX từ chối khi license hợp lệ."
+  "version": "1.4.3.55",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.55/TA_Tool_Update_1.4.3.55.zip",
+  "sha256": "8A63109FA658B137232DF55CE2A319FD8C693279C8D7D412023A1FC4B8366BDD",
+  "notes": "XTD: chon Pline de tu dong lay cac dinh lam moc va xuat bang toa do."
 }
