@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.55",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.55/TA_Tool_Update_1.4.3.55.zip",
-  "sha256": "8A63109FA658B137232DF55CE2A319FD8C693279C8D7D412023A1FC4B8366BDD",
-  "notes": "XTD: chon Pline de tu dong lay cac dinh lam moc va xuat bang toa do."
+  "version": "1.4.3.56",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.56/TA_Tool_Update_1.4.3.56.zip",
+  "sha256": "D9DF6A200E0610FF3AEEA40EC2635478964E1855A07D02260FDF680D2D1EEE3F",
+  "notes": "GopFile: gop Xref DWG long nhau thanh Block, don layer thua va luu ban copy; sua loi eWasErased khi Bind."
 }
