@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.58",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.58/TA_Tool_Update_1.4.3.58.zip",
-  "sha256": "F97C34CDE0799238A7DBCB91215A3A14586B4897C9C94FC058B69B39323CDF93",
-  "notes": "Nang phien ban 1.4.3.58; giu GopFile 1.0.3 voi tuy chon Xoa Xref thieu tren ban copy."
+  "version": "1.4.3.59",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.59/TA_Tool_Update_1.4.3.59.zip",
+  "sha256": "F7135A37C36C214532A095D9CA2AFCA0FD7DA1C24C019FE9C583D00A349D4342",
+  "notes": "GopFile 1.0.4: sua tham chieu vong; chon Xoa de bo Xref thieu va lien ket vong tren ban copy."
 }
