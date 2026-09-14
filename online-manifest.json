@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.56",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.56/TA_Tool_Update_1.4.3.56.zip",
-  "sha256": "D9DF6A200E0610FF3AEEA40EC2635478964E1855A07D02260FDF680D2D1EEE3F",
-  "notes": "GopFile: gop Xref DWG long nhau thanh Block, don layer thua va luu ban copy; sua loi eWasErased khi Bind."
+  "version": "1.4.3.57",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.57/TA_Tool_Update_1.4.3.57.zip",
+  "sha256": "32039E272A40D075809A9432C6BDF812925B400728DDA26FE22A73699E507F1B",
+  "notes": "GopFile 1.0.3: them tuy chon Xoa Xref thieu tren ban copy, ke ca Xref long, roi tiep tuc gop."
 }
