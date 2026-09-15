@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.62",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.62/TA_Tool_Update_1.4.3.62.zip",
-  "sha256": "94CD7BA45B04337447DB012E8BBA6D9DA6A5622C1172261D11BCD91671D62C8B",
-  "notes": "GopFile 1.0.9: Bind loi thi copy truc tiep Xref tren ban sao sach; thay font thieu theo TA_Text1; giu Gop/Giu va diem can chu."
+  "version": "1.4.3.63",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.63/TA_Tool_Update_1.4.3.63.zip",
+  "sha256": "F98D132F6A160D6822CF6AA65B7485251208731F5E5EC1B8DCC81197F170B9F9",
+  "notes": "Thêm VECOT, SUACOT; Space xoay cột; XData COLUMN và ZCFIX hỗ trợ tim lệch."
 }
