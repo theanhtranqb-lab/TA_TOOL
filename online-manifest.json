@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.63",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.63/TA_Tool_Update_1.4.3.63.zip",
-  "sha256": "F98D132F6A160D6822CF6AA65B7485251208731F5E5EC1B8DCC81197F170B9F9",
-  "notes": "Thêm VECOT, SUACOT; Space xoay cột; XData COLUMN và ZCFIX hỗ trợ tim lệch."
+  "version": "1.4.3.64",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.64/TA_Tool_Update_1.4.3.64.zip",
+  "sha256": "643154226F679DCE1124FC22CB29BA8ED6B9C9C94CC295C527D92CBAC403B606",
+  "notes": "VECOT và SUACOT tự động trừ tường, đóng đầu tường như ZC."
 }
