@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.61",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.61/TA_Tool_Update_1.4.3.61.zip",
-  "sha256": "487E5086457D89A4D6DCFBE14C999C982AF68373C8882DE5431B4762CEA81F0E",
-  "notes": "GopFile 1.0.8: chon Gop/Giu layer va style. Chua sua loi Bind eInvalidInput; chua tich hop copy truc tiep."
+  "version": "1.4.3.62",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.62/TA_Tool_Update_1.4.3.62.zip",
+  "sha256": "94CD7BA45B04337447DB012E8BBA6D9DA6A5622C1172261D11BCD91671D62C8B",
+  "notes": "GopFile 1.0.9: Bind loi thi copy truc tiep Xref tren ban sao sach; thay font thieu theo TA_Text1; giu Gop/Giu va diem can chu."
 }
