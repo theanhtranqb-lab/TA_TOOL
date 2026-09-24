@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.64",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.64/TA_Tool_Update_1.4.3.64.zip",
-  "sha256": "643154226F679DCE1124FC22CB29BA8ED6B9C9C94CC295C527D92CBAC403B606",
-  "notes": "VECOT và SUACOT tự động trừ tường, đóng đầu tường như ZC."
+  "version": "1.4.3.65",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.65/TA_Tool_Update_1.4.3.65.zip",
+  "sha256": "935C3A27FED7E3766C3D820F82FEFB55D27089C1D7F3F347E2CF032263B52625",
+  "notes": "Thêm Gop_Baove_file và Gop_Baove_ThuMuc: gộp DWG, tạo block vô danh theo layer; xử lý cả thư mục con và lưu đè giữ tên."
 }
