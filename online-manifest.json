@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.67",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.67/TA_Tool_Update_1.4.3.67.zip",
-  "sha256": "A35537C17E2447777E6D267CEF03295D907B5CDEEACBCB0597AAD514E099D6EB",
-  "notes": "Thêm Gop_SheetSet: đóng gói DWG/DST, bind xref, bỏ qua tệp thiếu, ngắt DataLink và sửa liên kết DST trỏ đúng DWG mới."
+  "version": "1.4.3.68",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.68/TA_Tool_Update_1.4.3.68.zip",
+  "sha256": "895C2902F4126E7266A9AD21ECE50F92E2DD534E40AAE84CF63E505D6337993A",
+  "notes": "Sửa Gop_SheetSet nhận nhầm PointCloudColorMap là liên kết ngoài, không còn chặn xuất DWG có bảng màu point cloud nội bộ."
 }
