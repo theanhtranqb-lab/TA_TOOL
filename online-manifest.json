@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.66",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.66/TA_Tool_Update_1.4.3.66.zip",
-  "sha256": "942B4ADCE223AD29494DB09602A091B2676F1AE5FA0D367D2B57B8632A56D01B",
-  "notes": "Thêm Mo_file: gỡ block bảo vệ ngay trong DWG đang mở và lưu vào chính file đó."
+  "version": "1.4.3.67",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.67/TA_Tool_Update_1.4.3.67.zip",
+  "sha256": "A35537C17E2447777E6D267CEF03295D907B5CDEEACBCB0597AAD514E099D6EB",
+  "notes": "Thêm Gop_SheetSet: đóng gói DWG/DST, bind xref, bỏ qua tệp thiếu, ngắt DataLink và sửa liên kết DST trỏ đúng DWG mới."
 }
