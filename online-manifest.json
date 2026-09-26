@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.70",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.70/TA_Tool_Update_1.4.3.70.zip",
-  "sha256": "7D22B99B9805329C648CF5496DF870EF2DAEAF19478FFB39E05889678E0837A9",
-  "notes": "Thêm hộp thoại tiến độ với thanh phần trăm và trạng thái công việc cho cả 5 lệnh gộp file, thư mục, bảo vệ và Sheet Set."
+  "version": "1.4.3.71",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.71/TA_Tool_Update_1.4.3.71.zip",
+  "sha256": "6969A7BED8AFD66075CBCEE1174293A96F7FE548A92BF12A02123EE84642A083",
+  "notes": "Sheet Set chỉ xuất DWG có sheet trong DST; sửa giữ DRAWORDER khi tạo bản sao, gộp Xref và bảo vệ bản vẽ."
 }
