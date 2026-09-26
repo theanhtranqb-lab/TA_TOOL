@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.68",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.68/TA_Tool_Update_1.4.3.68.zip",
-  "sha256": "895C2902F4126E7266A9AD21ECE50F92E2DD534E40AAE84CF63E505D6337993A",
-  "notes": "Sửa Gop_SheetSet nhận nhầm PointCloudColorMap là liên kết ngoài, không còn chặn xuất DWG có bảng màu point cloud nội bộ."
+  "version": "1.4.3.69",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.69/TA_Tool_Update_1.4.3.69.zip",
+  "sha256": "BB959AB6A15DAA7E68AEA24EBF0E98A9F8456D00EC98E84B47E2C6BB85A52144",
+  "notes": "Tự động AUDIT sửa lỗi và PURGE sau khi gộp cho Gop_file, Gop_ThuMuc, Gop_Baove_file, Gop_Baove_ThuMuc và Gop_SheetSet."
 }
