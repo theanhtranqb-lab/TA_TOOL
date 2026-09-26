@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.71",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.71/TA_Tool_Update_1.4.3.71.zip",
-  "sha256": "6969A7BED8AFD66075CBCEE1174293A96F7FE548A92BF12A02123EE84642A083",
-  "notes": "Sheet Set chỉ xuất DWG có sheet trong DST; sửa giữ DRAWORDER khi tạo bản sao, gộp Xref và bảo vệ bản vẽ."
+  "version": "1.4.3.72",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.72/TA_Tool_Update_1.4.3.72.zip",
+  "sha256": "B36F091B5BB31ED41EEBF79FFE2BADAE9D783F656F5547F23FC06C47397F1C40",
+  "notes": "Thêm Hien_cau_truc_file: vẽ cây DST, DWG, thư mục, layout, Xref và link ngoài ngay trong Model Space."
 }
