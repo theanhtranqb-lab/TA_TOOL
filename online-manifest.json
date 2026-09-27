@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.72",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.72/TA_Tool_Update_1.4.3.72.zip",
-  "sha256": "B36F091B5BB31ED41EEBF79FFE2BADAE9D783F656F5547F23FC06C47397F1C40",
-  "notes": "Thêm Hien_cau_truc_file: vẽ cây DST, DWG, thư mục, layout, Xref và link ngoài ngay trong Model Space."
+  "version": "1.4.3.73",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.73/TA_Tool_Update_1.4.3.73.zip",
+  "sha256": "87967FFF642910549C30FBD7F97198FC1BB736B4EF76A38A1D6C3D32BB68D015",
+  "notes": "VECOT: tên block C_AxB có số thứ tự khi trùng; đường bao .A.014.Cot, hatch .A.092.Hatch_Betong."
 }
