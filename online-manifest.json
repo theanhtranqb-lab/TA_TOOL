@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.73",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.73/TA_Tool_Update_1.4.3.73.zip",
-  "sha256": "87967FFF642910549C30FBD7F97198FC1BB736B4EF76A38A1D6C3D32BB68D015",
-  "notes": "VECOT: tên block C_AxB có số thứ tự khi trùng; đường bao .A.014.Cot, hatch .A.092.Hatch_Betong."
+  "version": "1.4.3.74",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.74/TA_Tool_Update_1.4.3.74.zip",
+  "sha256": "DE7CDA9BB7A5A8AC7F06A19FC4947082B493C7BB0D24FCEAA7F07E0E6ED02334",
+  "notes": "Tối ưu Hien_cau_truc_file: gộp thông tin trên một dòng, dùng chú giải màu ngang và giảm khoảng cách dòng."
 }
