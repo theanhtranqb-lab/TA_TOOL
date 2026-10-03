@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.75",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.75/TA_Tool_Update_1.4.3.75.zip",
-  "sha256": "E1BA1B7DA2CEB7A42154427ADBB2DF3D83BC52088343ACDE8103216173DAD16B",
-  "notes": "Thêm TA_Auto_dim cho AutoCAD 2025–2026: DIM hiện hành, nhiều layer/block, bỏ qua Hatch/Wipeout, khoảng cách 6H, chân DIM 3H, DUP và tùy chọn layer chi tiết/chỉ tổng trong TAOPTION."
+  "version": "1.4.3.77",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.77/TA_Tool_Update_1.4.3.77.zip",
+  "sha256": "14DA136B43D87740362D23E6551D672806DBD548C46B3C9ED40A43F364436891",
+  "notes": "TAUPDATE hiển thị phiên bản hiện tại, phần trăm tải và 6 bước chuẩn bị updater. Luôn tải bản mới khi gọi lệnh dù Auto Update đang tắt; tự cài sau khi đóng AutoCAD."
 }
