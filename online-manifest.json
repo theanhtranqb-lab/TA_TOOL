@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.77",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.77/TA_Tool_Update_1.4.3.77.zip",
-  "sha256": "14DA136B43D87740362D23E6551D672806DBD548C46B3C9ED40A43F364436891",
-  "notes": "TAUPDATE hiển thị phiên bản hiện tại, phần trăm tải và 6 bước chuẩn bị updater. Luôn tải bản mới khi gọi lệnh dù Auto Update đang tắt; tự cài sau khi đóng AutoCAD."
+  "version": "1.4.3.78",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.78/TA_Tool_Update_1.4.3.78.zip",
+  "sha256": "3A4850D257759E7780BD31B235027E1EA5BC0374EDB839EF7762856648B2F2C6",
+  "notes": "AutoDim trong TAOPTION có 3 cột layer: DIM chi tiết, chỉ tổng, bỏ qua. Layer chi tiết bên trong block được DIM chi tiết, ưu tiên hơn Chỉ tổng của block chứa."
 }
