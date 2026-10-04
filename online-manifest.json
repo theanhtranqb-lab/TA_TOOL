@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.82",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.82/TA_Tool_Update_1.4.3.82.zip",
-  "sha256": "8C0F282C8C2AA34099E0ACB080CBA9ACB2312AF63E5AECA9B292F77D7CF96260",
-  "notes": "AutoDim lọc điểm theo biên thực tế tại vị trí đo, loại điểm trùng sâu bên trong vùng quét. DIM mới luôn trên .A.060.Dimension, tự tạo layer khi thiếu."
+  "version": "1.4.3.83",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.83/TA_Tool_Update_1.4.3.83.zip",
+  "sha256": "5B91ABA0C827CF6C9F38BAAAB6F7B11E54B622368EAB5637CBC9120876B72030",
+  "notes": "Lệnh AN tự động ghi tỉ lệ 1:ScaleX vào thuộc tính SC_DW của block TENBANVE, giữ đánh số NUM theo vị trí. Cập nhật VLX mới do tác giả build."
 }
