@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.85",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.85/TA_Tool_Update_1.4.3.85.zip",
-  "sha256": "0A163B3A8C6ED9FFEF21DEE3351F29B6FB11EACB9C3A4D6113201552407A90E4",
-  "notes": "Cải tiến 2XR: gợi ý tên theo nhóm, cho phép tên trống; Dw cho phép bộ môn/nhóm trống; Sh bỏ nhóm bản vẽ."
+  "version": "1.4.3.86",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.86/TA_Tool_Update_1.4.3.86.zip",
+  "sha256": "15C91102F0C7138E793EDA379830179DCFECFE6F69841556AF6CE926CBB9D7ED",
+  "notes": "Tích hợp TaoDwSh: tạo Dw/Sh theo hạng mục và nhiều bộ môn; tùy chọn không dấu, DST/subset, khung A3 trong HM và mẫu mặc định TA_tool_V1.dwg giữ style/layer."
 }
