@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.83",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.83/TA_Tool_Update_1.4.3.83.zip",
-  "sha256": "5B91ABA0C827CF6C9F38BAAAB6F7B11E54B622368EAB5637CBC9120876B72030",
-  "notes": "Lệnh AN tự động ghi tỉ lệ 1:ScaleX vào thuộc tính SC_DW của block TENBANVE, giữ đánh số NUM theo vị trí. Cập nhật VLX mới do tác giả build."
+  "version": "1.4.3.84",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.84/TA_Tool_Update_1.4.3.84.zip",
+  "sha256": "B4D00CC208ECC18E56DD14DC630BF744AECE08DAF715E8F6180DFD75E0CF4427",
+  "notes": "AN liên kết Field Scale X vào SC_DW, hiển thị A3 1:ScaleX và cập nhật khi REGEN. VLX mới do tác giả build."
 }
