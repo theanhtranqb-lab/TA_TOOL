@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.84",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.84/TA_Tool_Update_1.4.3.84.zip",
-  "sha256": "B4D00CC208ECC18E56DD14DC630BF744AECE08DAF715E8F6180DFD75E0CF4427",
-  "notes": "AN liên kết Field Scale X vào SC_DW, hiển thị A3 1:ScaleX và cập nhật khi REGEN. VLX mới do tác giả build."
+  "version": "1.4.3.85",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.85/TA_Tool_Update_1.4.3.85.zip",
+  "sha256": "0A163B3A8C6ED9FFEF21DEE3351F29B6FB11EACB9C3A4D6113201552407A90E4",
+  "notes": "Cải tiến 2XR: gợi ý tên theo nhóm, cho phép tên trống; Dw cho phép bộ môn/nhóm trống; Sh bỏ nhóm bản vẽ."
 }
