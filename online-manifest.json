@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.80",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.80/TA_Tool_Update_1.4.3.80.zip",
-  "sha256": "0F6917A426FA793F04D6C9AF6B88ABFD2A5C187D43AF02BBB88A8761079170F5",
-  "notes": "TAOPTION AutoDim thêm Khoảng quét cho người dùng thay đổi, mặc định 500 đơn vị. Vùng quét tính vào trong từ mép biên thực tế của hình, không từ đường DIM."
+  "version": "1.4.3.81",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.81/TA_Tool_Update_1.4.3.81.zip",
+  "sha256": "2E2CFF023B40E3765D2D52CE08248755437B416BCAF66579DD6725CB52C81BCC",
+  "notes": "TA_Auto_dim: chọn đối tượng, Space tự chọn ALL và hiện preview, Space tiếp tạo DIM hoặc Esc hủy. Gỡ lệnh TADIM/DIMTA cũ."
 }
