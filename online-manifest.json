@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.79",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.79/TA_Tool_Update_1.4.3.79.zip",
-  "sha256": "F256A80946BB745DE104557CE5C2D4E96D7E1A6A36A110261A01C55A205180C6",
-  "notes": "AutoDim giữ thuật toán DIM theo mép; lọc layer trước tính toán, đọc cạnh trong block, vùng quét 500 đơn vị. Bỏ cơ chế lấy toàn bộ điểm bên trong block của 1.4.3.78."
+  "version": "1.4.3.80",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.80/TA_Tool_Update_1.4.3.80.zip",
+  "sha256": "0F6917A426FA793F04D6C9AF6B88ABFD2A5C187D43AF02BBB88A8761079170F5",
+  "notes": "TAOPTION AutoDim thêm Khoảng quét cho người dùng thay đổi, mặc định 500 đơn vị. Vùng quét tính vào trong từ mép biên thực tế của hình, không từ đường DIM."
 }
