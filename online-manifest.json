@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.81",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.81/TA_Tool_Update_1.4.3.81.zip",
-  "sha256": "2E2CFF023B40E3765D2D52CE08248755437B416BCAF66579DD6725CB52C81BCC",
-  "notes": "TA_Auto_dim: chọn đối tượng, Space tự chọn ALL và hiện preview, Space tiếp tạo DIM hoặc Esc hủy. Gỡ lệnh TADIM/DIMTA cũ."
+  "version": "1.4.3.82",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.82/TA_Tool_Update_1.4.3.82.zip",
+  "sha256": "8C0F282C8C2AA34099E0ACB080CBA9ACB2312AF63E5AECA9B292F77D7CF96260",
+  "notes": "AutoDim lọc điểm theo biên thực tế tại vị trí đo, loại điểm trùng sâu bên trong vùng quét. DIM mới luôn trên .A.060.Dimension, tự tạo layer khi thiếu."
 }
