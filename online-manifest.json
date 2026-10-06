@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.87",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Tool_Update_1.4.3.87.zip",
-  "sha256": "EF400708496C9FC69E68719FAAB26E44E76DB2A55BFD6BFCC36822990C208FFF",
-  "notes": "Bổ sung quản lý lớp cắt vật liệu: thư viện JSON, preview, chèn thủ công/tự động, thống kê CSV/snapshot, cập nhật bảng theo UUID/revision; tích hợp TA_OPTION."
+  "version": "1.4.3.88",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.88/TA_Tool_Update_1.4.3.88.zip",
+  "sha256": "CE70335514DF90F70A651059F1170B37197A7426C7B29921D2ADA41859292B35",
+  "notes": "TA_Auto_dim: Space chọn ALL; phím mũi tên chọn TOP/BOTTOM/LEFT/RIGHT ngay khi kết thúc chọn đối tượng. Preview tự động, Space tạo DIM, Esc hủy."
 }
