@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.94",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.94/TA_Tool_Update_1.4.3.94.zip",
-  "sha256": "1AED7A7845F818721DBB78F16429789718148113BF20CA4D62AE92350195272E",
-  "notes": "AutoDim quét chọn xong preview ALL ngay. Phím mũi tên chọn rồi bật/tắt các hướng; dùng lại preview đã tính, Space/Enter tạo DIM, Esc hủy. Giữ nhập WASD làm cách chọn bổ sung."
+  "version": "1.4.3.95",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.95/TA_Tool_Update_1.4.3.95.zip",
+  "sha256": "45E0E17C4EC4C5C69333C63EF0B06CAB1C646738CC16C163EA78A476D6CF756D",
+  "notes": "Sửa lỗi Arithmetic operation resulted in an overflow khi preview AutoDim: lọc thông điệp bàn phím trước, giữ WPARAM 64-bit và bắt lỗi callback. Giữ preview ALL và bật/tắt hướng."
 }
