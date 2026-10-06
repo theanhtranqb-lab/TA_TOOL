@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.88",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.88/TA_Tool_Update_1.4.3.88.zip",
-  "sha256": "CE70335514DF90F70A651059F1170B37197A7426C7B29921D2ADA41859292B35",
-  "notes": "TA_Auto_dim: Space chọn ALL; phím mũi tên chọn TOP/BOTTOM/LEFT/RIGHT ngay khi kết thúc chọn đối tượng. Preview tự động, Space tạo DIM, Esc hủy."
+  "version": "1.4.3.89",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.89/TA_Tool_Update_1.4.3.89.zip",
+  "sha256": "7DA14C50E1360CD6D5576A136050CB061EDD76FCEC48535F981D6EED681F77CC",
+  "notes": "TA_OPTION AutoDim: bật/tắt MIN và nhập khoảng DIM tối thiểu. TA_Auto_dim gộp hai điểm tạo khoảng nhỏ hơn MIN về trung điểm để DIM với các điểm còn lại."
 }
