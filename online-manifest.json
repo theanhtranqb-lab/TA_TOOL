@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.89",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.89/TA_Tool_Update_1.4.3.89.zip",
-  "sha256": "7DA14C50E1360CD6D5576A136050CB061EDD76FCEC48535F981D6EED681F77CC",
-  "notes": "TA_OPTION AutoDim: bật/tắt MIN và nhập khoảng DIM tối thiểu. TA_Auto_dim gộp hai điểm tạo khoảng nhỏ hơn MIN về trung điểm để DIM với các điểm còn lại."
+  "version": "1.4.3.90",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.90/TA_Tool_Update_1.4.3.90.zip",
+  "sha256": "4BA2C2812D5486C0350777625F827451A958408FB39C1C1C0C773B721238F734",
+  "notes": "AutoDim MIN giữ cạnh ngoài tại hai đầu biên để DIM bao trọn vật thể; điểm gần nhau bên trong vẫn gộp về trung điểm."
 }
