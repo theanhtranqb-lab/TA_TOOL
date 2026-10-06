@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.93",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.93/TA_Tool_Update_1.4.3.93.zip",
-  "sha256": "961E375C30EC6C4477F622CB1EA0043D17DFC3FB1E099258A1D8C3535DFDED41",
-  "notes": "AutoDim nhập chuỗi hướng tự do: tìm W/A/S/D để chọn nhiều hướng, bỏ ký tự lặp, trống chọn ALL, Space xác nhận preview."
+  "version": "1.4.3.94",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.94/TA_Tool_Update_1.4.3.94.zip",
+  "sha256": "1AED7A7845F818721DBB78F16429789718148113BF20CA4D62AE92350195272E",
+  "notes": "AutoDim quét chọn xong preview ALL ngay. Phím mũi tên chọn rồi bật/tắt các hướng; dùng lại preview đã tính, Space/Enter tạo DIM, Esc hủy. Giữ nhập WASD làm cách chọn bổ sung."
 }
