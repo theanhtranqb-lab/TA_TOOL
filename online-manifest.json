@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.91",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.91/TA_Tool_Update_1.4.3.91.zip",
-  "sha256": "FFBAFF4E8843389F32882FD25CE454063EF6BD2E3713832CBB06E5DFAD10EC19",
-  "notes": "Sửa bắt phím mũi tên khi chọn đối tượng AutoDim: chặn phím gốc, gửi Enter qua hàng đợi Windows để kết thúc chọn và preview theo hướng đã chọn."
+  "version": "1.4.3.92",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.92/TA_Tool_Update_1.4.3.92.zip",
+  "sha256": "B09EFFB4F4E60163797E263FD17D658C32B807DB3A9497A7CA72BA5BFF5C821E",
+  "notes": "TA_Auto_dim dùng W=trên, A=trái, S=dưới, D=phải để chọn hướng sau khi chọn đối tượng. Nhập trống chọn ALL; Space xác nhận preview, Esc hủy."
 }
