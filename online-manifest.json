@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.96",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.96/TA_Tool_Update_1.4.3.96.zip",
-  "sha256": "E9A3D0C750E4A7D50F22103507FC688B50228009406D0DE34AB6457711BFF2F3",
-  "notes": "VECOT ghi kích thước cột bằng cm, chiều cao chữ 25 trên layer Defpoints không in; SUACOT cập nhật nhãn theo kích thước mới."
+  "version": "1.4.3.97",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.97/TA_Tool_Update_1.4.3.97.zip",
+  "sha256": "E768F35790DFFE1C31F903FC6D7BFB1680FACBBDE8C7054A00E0DB1FCF4AD439",
+  "notes": "VECOT ghi kích thước cm, chữ cao 25 trong góc dưới bên phải trên Defpoints. Thêm SUACOT_ALL áp dụng layer, hatch và ghi chú cho nhiều loại cột, giữ nguyên kích thước."
 }
