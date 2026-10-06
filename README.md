@@ -2,13 +2,15 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.4.3.87 — Quản lý lớp cắt vật liệu](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.4.3.87).
+Phiên bản chính thức hiện tại: [v1.4.3.96 — Kích thước cột bằng cm trên Defpoints](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.4.3.96).
+
+`VECOT` ghi kích thước bằng cm, chữ cao 25 trên layer Defpoints không in. `SUACOT` cập nhật nhãn khi sửa kích thước; dùng lệnh này để thêm nhãn cho cột cũ.
 
 ## Cập nhật
 
 Chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới. Mở lại AutoCAD sau khi cập nhật. Gói hỗ trợ nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8); host thực tế đã kiểm cho module mới là AutoCAD 2025 R25.0.116.0.0. Bản 2022–2024 đã build, chưa chạy trên host tương ứng.
 
-[Tải gói cập nhật 1.4.3.87](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Tool_Update_1.4.3.87.zip) · [Tài liệu, schema và mẫu TC2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Construction_Docs_1.4.3.87.zip) · [SHA-256](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/SHA256SUMS_1.4.3.87.txt).
+[Tải gói cập nhật 1.4.3.96](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.96/TA_Tool_Update_1.4.3.96.zip) · [Tài liệu, schema và mẫu TC2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Construction_Docs_1.4.3.87.zip) · [SHA-256](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.96/SHA256SUMS_1.4.3.96.txt).
 
 ## Quản lý lớp cắt vật liệu
 
