@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.97",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.97/TA_Tool_Update_1.4.3.97.zip",
-  "sha256": "E768F35790DFFE1C31F903FC6D7BFB1680FACBBDE8C7054A00E0DB1FCF4AD439",
-  "notes": "VECOT ghi kích thước cm, chữ cao 25 trong góc dưới bên phải trên Defpoints. Thêm SUACOT_ALL áp dụng layer, hatch và ghi chú cho nhiều loại cột, giữ nguyên kích thước."
+  "version": "1.4.3.98",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.98/TA_Tool_Update_1.4.3.98.zip",
+  "sha256": "5A0BCA1F5FCEAFD9FE6B074147918575D0833FECF3A5B1DBE9F263C3A9628970",
+  "notes": "Đồng bộ DLL CAD 2022–2024/2025: AutoDim, TA_OPTION_AUTODIM, yêu cầu kích hoạt và COM Sheet Set theo host. Bốn DLL cùng phiên bản; host 2022–2024 chưa kiểm trực tiếp."
 }
