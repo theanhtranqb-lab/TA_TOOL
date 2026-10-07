@@ -2,7 +2,9 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.4.3.98 — Đồng bộ CAD 2022–2024 và 2025](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.4.3.98).
+Phiên bản chính thức hiện tại: [v1.4.3.99 — Nhận block trục ZXY và đặt DIM chi tiết vào trong cùng](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.4.3.99).
+
+`TA_Auto_dim` nhận trục dạng block ZXY và đặt hàng DIM chi tiết phía trong các hàng DIM của block, giữ DIM trục/tổng hiện có. Chọn cả đối tượng và block trục khi DIM.
 
 Đồng bộ AutoDim (`TA_Auto_dim`), `TA_OPTION_AUTODIM` và `TA_GUIYEUCAU` giữa hai nhánh. Sheet Set chọn COM theo CAD đang chạy. Bốn DLL cùng phiên bản; 210 tên lệnh tích hợp và 53 tên lệnh kiến trúc khớp giữa hai runtime.
 
@@ -10,7 +12,7 @@ Phiên bản chính thức hiện tại: [v1.4.3.98 — Đồng bộ CAD 2022–
 
 Chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới. Mở lại AutoCAD sau khi cập nhật. Gói hỗ trợ nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8); host thực tế đã kiểm cho module mới là AutoCAD 2025 R25.0.116.0.0. Bản 2022–2024 đã build với API CAD 2022 R24.1, đạt kiểm tra JSON/layer/lập DIM trên .NET Framework 4.8; chưa chạy trên host CAD 2022, 2023 hoặc 2024. Kiểm tra metadata xác nhận tên lệnh và lớp đăng ký lệnh đồng bộ, không thay thế nghiệm thu chức năng toàn bộ lệnh.
 
-[Tải gói cập nhật 1.4.3.98](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.98/TA_Tool_Update_1.4.3.98.zip) · [Tài liệu, schema và mẫu TC2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Construction_Docs_1.4.3.87.zip) · [SHA-256](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.98/SHA256SUMS_1.4.3.98.txt).
+[Tải gói cập nhật 1.4.3.99](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.99/TA_Tool_Update_1.4.3.99.zip) · [Tài liệu, schema và mẫu TC2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Construction_Docs_1.4.3.87.zip) · [SHA-256](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.99/SHA256SUMS_1.4.3.99.txt).
 
 ## Quản lý lớp cắt vật liệu
 

@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.4.3.98",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.98/TA_Tool_Update_1.4.3.98.zip",
-  "sha256": "5A0BCA1F5FCEAFD9FE6B074147918575D0833FECF3A5B1DBE9F263C3A9628970",
-  "notes": "Đồng bộ DLL CAD 2022–2024/2025: AutoDim, TA_OPTION_AUTODIM, yêu cầu kích hoạt và COM Sheet Set theo host. Bốn DLL cùng phiên bản; host 2022–2024 chưa kiểm trực tiếp."
+  "version": "1.4.3.99",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.99/TA_Tool_Update_1.4.3.99.zip",
+  "sha256": "6A0E722091A234255B6DE2597F6929D64C58964FFD60ADD7145756D918F1F13E",
+  "notes": "AutoDim nhận trục dạng block ZXY, đặt hàng DIM chi tiết vào trong cùng theo vị trí/khoảng cách hàng DIM trong block; giữ hàng trục và tổng hiện có."
 }
