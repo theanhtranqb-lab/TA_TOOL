@@ -2,17 +2,23 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.4.3.99 — Nhận block trục ZXY và đặt DIM chi tiết vào trong cùng](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.4.3.99).
+Phiên bản chính thức hiện tại: [v1.5.1 — Chuẩn hóa đối tượng theo dim/text hiện hành bằng C2S](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1).
 
-`TA_Auto_dim` nhận trục dạng block ZXY và đặt hàng DIM chi tiết phía trong các hàng DIM của block, giữ DIM trục/tổng hiện có. Chọn cả đối tượng và block trục khi DIM.
+`CHANGE_OBJ2SCALE` (lệnh tắt `C2S`) xử lý nhiều đối tượng rời, block và block lồng: chuẩn hóa TEXT/MTEXT/ATT, DIM, Hatch đã định nghĩa trong thư viện TA và ghi chú LEADER/MLEADER. Đặt dim/text hiện hành bằng VX hoặc lệnh Vxx, chạy C2S, chọn đối tượng, Enter. Khi Hatch trùng nhiều mẫu, chọn mẫu chuẩn; Enter bỏ qua nhóm, Esc hủy lượt xử lý.
 
-Đồng bộ AutoDim (`TA_Auto_dim`), `TA_OPTION_AUTODIM` và `TA_GUIYEUCAU` giữa hai nhánh. Sheet Set chọn COM theo CAD đang chạy. Bốn DLL cùng phiên bản; 210 tên lệnh tích hợp và 53 tên lệnh kiến trúc khớp giữa hai runtime.
+Giữ hình học và các bản chèn block không chọn. **Block động được chọn có nội dung cần chuẩn hóa sẽ thành block tĩnh riêng theo hình đang hiển thị.** Lệnh báo bỏ qua Xref, layer khóa và các trường hợp không thể xác định/áp dụng chuẩn.
 
-## Cập nhật
+Bản này tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết phía trong hàng DIM hiện có, thư viện cấu tạo và các chức năng TA Tool trước đó. Bốn DLL cùng phiên bản 1.5.1; 212 tên lệnh tích hợp và 53 tên lệnh kiến trúc khớp giữa hai runtime.
 
-Chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới. Mở lại AutoCAD sau khi cập nhật. Gói hỗ trợ nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8); host thực tế đã kiểm cho module mới là AutoCAD 2025 R25.0.116.0.0. Bản 2022–2024 đã build với API CAD 2022 R24.1, đạt kiểm tra JSON/layer/lập DIM trên .NET Framework 4.8; chưa chạy trên host CAD 2022, 2023 hoặc 2024. Kiểm tra metadata xác nhận tên lệnh và lớp đăng ký lệnh đồng bộ, không thay thế nghiệm thu chức năng toàn bộ lệnh.
+## Cài đặt và cập nhật
 
-[Tải gói cập nhật 1.4.3.99](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.99/TA_Tool_Update_1.4.3.99.zip) · [Tài liệu, schema và mẫu TC2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Construction_Docs_1.4.3.87.zip) · [SHA-256](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.99/SHA256SUMS_1.4.3.99.txt).
+- **Cài mới:** [tải bộ cài 1.5.1](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1/TA_Tool_Setup_1.5.1.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe trong thư mục đã giải nén.
+- **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
+- **Offline:** [tải gói cập nhật 1.5.1](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1/TA_Tool_Update_1.5.1.zip).
+
+Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). DLL chính 1.5.1 đã chạy trong AutoCAD 2025 Core Console: 30 kiểm tra C2S và 4 kiểm tra gọi lệnh/Undo/Redo đạt. Đã kiểm tra phiên bản, metadata lệnh và SHA-256 của mọi payload trong cả hai gói. Host CAD 2022–2024 và giao diện bộ cài chưa kiểm trực tiếp.
+
+[Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1/RELEASE_NOTES_1.5.1.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1/verification.json) · [SHA-256](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1/SHA256SUMS_1.5.1.txt) · [Tài liệu, schema và mẫu TC2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Construction_Docs_1.4.3.87.zip).
 
 ## Quản lý lớp cắt vật liệu
 
