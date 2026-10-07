@@ -2,7 +2,9 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.03 — Chèn ghi chú chi tiết liên tục](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.03).
+Phiên bản chính thức hiện tại: [v1.5.1.04 — AutoDim tự nhận lưới trục ZXY](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.04).
+
+`TA_Auto_dim` tự nhận lưới trục ZXY dạng rời, block và block lồng nhau. Quét chọn cả vật thể, trục và DIM đã có; preview ALL hiện ngay. Dùng phím mũi tên để bật/tắt hướng, Space/Enter tạo DIM và Esc hủy. Hàng DIM chi tiết mới nằm phía trong hàng trục hiện có; giữ DIM trục/tổng đã có, không sửa DIM nguồn. DIM mới dùng layer `.A.060.Dimension`. Chạy lại ALL giữ hàng DIM và không tạo thêm DIM trùng.
 
 `GHICHITIET` tạo ghi chú MLEADER bằng style `NEO_Callout`, block `.SPEC_Neo_Detail` với thuộc tính `NO.` / `Num`. Tỉ lệ lấy từ Dim hiện hành; đoạn nghiêng 45° và đoạn ngang đều dài 6 mm trên giấy. Ở 1:100, mỗi đoạn dài 600, block phóng 100 lần. `VX` và các lệnh `V1`, `V2`, …, `V500` tự tạo/dùng lại style theo tỉ lệ vừa đặt; ghi chú cũ giữ tỉ lệ riêng.
 
@@ -16,17 +18,17 @@ Cả gói Setup và Update đều mang theo `TA_tool_V1.dwg` có block `.SPEC_Ne
 
 Giữ hình học và các bản chèn block không chọn. **Block động được chọn có nội dung cần chuẩn hóa sẽ thành block tĩnh riêng theo hình đang hiển thị.** Lệnh báo bỏ qua Xref, layer khóa và các trường hợp không thể xác định/áp dụng chuẩn.
 
-Bản này tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết phía trong hàng DIM hiện có, thư viện cấu tạo và các chức năng TA Tool trước đó. Bốn DLL cùng nhãn phát hành 1.5.1.03 (AssemblyVersion 1.5.1.3); 214 tên lệnh tích hợp và 53 tên lệnh kiến trúc khớp giữa hai runtime.
+Bản này tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết phía trong hàng DIM hiện có, thư viện cấu tạo và các chức năng TA Tool trước đó. Bốn DLL cùng nhãn phát hành 1.5.1.04 (AssemblyVersion 1.5.1.4); 214 tên lệnh tích hợp và 53 tên lệnh kiến trúc khớp giữa hai runtime.
 
 ## Cài đặt và cập nhật
 
-- **Cài mới:** [tải bộ cài 1.5.1.03](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.03/TA_Tool_Setup_1.5.1.03.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe trong thư mục đã giải nén.
+- **Cài mới:** [tải bộ cài 1.5.1.04](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.04/TA_Tool_Setup_1.5.1.04.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe trong thư mục đã giải nén.
 - **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
-- **Offline:** [tải gói cập nhật 1.5.1.03](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.03/TA_Tool_Update_1.5.1.03.zip).
+- **Offline:** [tải gói cập nhật 1.5.1.04](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.04/TA_Tool_Update_1.5.1.04.zip).
 
-Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). DLL chính 1.5.1.03 đã chạy trong AutoCAD 2025 Core Console: 32 kiểm tra chèn liên tiếp/xử lý sự kiện phím, 77 kiểm tra preview/hình học/đánh số/layer/lưu-mở DWG, 150 kiểm tra MLEADER/Excel, 52 kiểm tra VX/Vxx, 30 kiểm tra C2S và 4 kiểm tra gọi lệnh/Undo/Redo đạt. Đã kiểm tra phiên bản, metadata lệnh và SHA-256 của mọi payload trong cả hai gói, gồm thư viện CAD. Kiểm tra phím dùng sự kiện đầu vào mô phỏng; kéo chuột, hiển thị preview, thao tác phím và hộp thoại tiền tố chưa kiểm trực tiếp trong AutoCAD có giao diện. Host CAD 2022–2024 và giao diện bộ cài chưa kiểm trực tiếp.
+Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.04 đạt 417 kiểm tra AutoDim trong AutoCAD 2025 Core Console; 39 fixture ZXY/DIM rời/block lồng chạy thêm trên đúng DLL tích hợp đóng gói. Đã kiểm tra tạo DIM thật, chống trùng khi chạy lại, nguồn bất biến, grid ở xa và layer DIM. Metadata 214 lệnh chính và 53 lệnh kiến trúc khớp hai runtime; bộ cài chọn đúng nhánh cho 2022–2026. Các module khác giữ nguồn của 1.5.1.03 và thư viện CAD giữ nguyên hash. Preview/phím trong AutoCAD có giao diện, host 2022–2024 và giao diện bộ cài cần kiểm trực tiếp; đợt này chỉ chạy test nền trên database riêng.
 
-[Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.03/RELEASE_NOTES_1.5.1.03.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.03/verification.json) · [SHA-256](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.03/SHA256SUMS_1.5.1.03.txt) · [Tài liệu, schema và mẫu TC2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Construction_Docs_1.4.3.87.zip).
+[Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.04/RELEASE_NOTES_1.5.1.04.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.04/verification.json) · [SHA-256](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.04/SHA256SUMS_1.5.1.04.txt) · [Tài liệu, schema và mẫu TC2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Construction_Docs_1.4.3.87.zip).
 
 ## Quản lý lớp cắt vật liệu
 

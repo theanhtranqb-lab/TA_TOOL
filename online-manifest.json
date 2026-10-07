@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.03",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.03/TA_Tool_Update_1.5.1.03.zip",
-  "sha256": "F14096080089D0BE3974D60F1B1C4A1098A0A1ED39BC4FB4A3CE30E58BFB02B3",
-  "notes": "GHICHITIET: pick lien tuc, Tab doi 4 vi tri, Enter/Space ket thuc; S doi tien to, NO tu tang sau moi pick, Num mac dinh -. Kem thu vien TA_tool_V1.dwg."
+  "version": "1.5.1.04",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.04/TA_Tool_Update_1.5.1.04.zip",
+  "sha256": "53F57FBD31E297872289FF8B2DA9C2101DC67C14987FA6474A114DC54E1D5103",
+  "notes": "AutoDim tu nhan luoi truc ZXY, DIM roi va block long. Giu DIM truc/tong co san; them DIM chi tiet phia trong hang DIM truc. Loc layer bo qua chi loai canh vat the, van doc DIM tham chieu. Giu GHICHITIET va thu vien CAD ban .03."
 }
