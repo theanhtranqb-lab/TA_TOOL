@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.01",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.01/TA_Tool_Update_1.5.1.01.zip",
-  "sha256": "B88178E42F49CA11B7A5BE7C3D7EAADDF0A6571F642A615E4B1B895FD8C60C1E",
-  "notes": "MLEADER NEO_Callout, ghichitiet, cap nhat Num tu Excel; VX/Vxx tu tao style theo ti le. Kem thu vien TA_tool_V1.dwg co block .SPEC_Neo_Detail."
+  "version": "1.5.1.02",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.02/TA_Tool_Update_1.5.1.02.zip",
+  "sha256": "7D19B6120DC1AC0AE8EA05B3DB8B77B54796549DF68709E943DF06BBBA59ED2C",
+  "notes": "GHICHITIET: preview, Space doi 4 vi tri, S doi tien to; NO tu tang CT-01, Num mac dinh -, layer .A.083.Kihieu_Chitiet. Kem thu vien TA_tool_V1.dwg."
 }
