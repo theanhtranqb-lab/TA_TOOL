@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.06",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.06/TA_Tool_Update_1.5.1.06.zip",
-  "sha256": "7A04D6ADA2668D7D5409C2C5A4EA4FFF914EBB2DC41FC93AEE97D06A674D4792",
-  "notes": "Them GHICHU/GC goi MLeader .MLD theo Dim; C2S doi ty le ky hieu vat lieu/chi tiet. Them GCT, TK_/UPDATE_ cho 5 nhom; TA_OPTION co cai dat bang rieng. Kem thu vien CAD; giu AutoDim ZXY ban .04."
+  "version": "1.5.1.07",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.07/TA_Tool_Update_1.5.1.07.zip",
+  "sha256": "CFD0BAC50A0A5AABA7DF016D2182781DA2C0C1300484CFCEDB2D730BA07C76EE",
+  "notes": "Them TKA_ thong ke toan ban ve cho 5 nhom vat lieu/chi tiet, di thang den diem dat bang. Dong bo 255 lenh giua AutoCAD 2022-2024 va 2025; dung chung cai dat TK_ va UPDATE_. Kem thu vien CAD; giu cac tinh nang GHICHU/GC, C2S, AutoDim."
 }

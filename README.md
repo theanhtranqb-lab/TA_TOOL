@@ -2,21 +2,23 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.06 — Ghi chú, bảng thống kê và C2S](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.06).
+Phiên bản chính thức hiện tại: [v1.5.1.07 — TKA thống kê toàn bản vẽ](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.07).
+
+`TKA_` tự quét ký hiệu trong toàn bộ Model, các Layout và block đã chèn, rồi chuyển thẳng sang điểm đặt bảng. Không cần hỏi Chon/Tatca hay quét chọn. Bỏ qua Xref và định nghĩa block chưa chèn. Hai nhánh AutoCAD 2022–2024 và 2025+ dùng chung lệnh và cài đặt.
 
 `GHICHU` / `GC` chọn hoặc tạo MLeader style `.MLD.1-…` theo tỷ lệ Dim hiện hành và mở lệnh ghi chú chữ. `C2S` nay đổi tỷ lệ cả năm loại MLeader block vật liệu/chi tiết: giữ điểm mũi tên, hướng đặt, mã ATT và liên kết bảng; block và đường dẫn đổi theo tỷ lệ mới.
 
 `GCT` là lệnh tắt của `GHICHITIET`. Các lệnh `TK_` tạo bảng năm cột **STT | Tên | Ký hiệu 1 (SP) | Ký hiệu 2 (No) | Chú thích**; `UPDATE_` đọc nội dung bảng về đúng các ký hiệu liên kết:
 
-| Nhóm | Tạo bảng | Cập nhật ký hiệu |
-| --- | --- | --- |
-| Sàn | TK_GVLS | UPDATE_GVLS |
-| Trần | TK_GVLT | UPDATE_GVLT |
-| Finish | TK_GVLF | UPDATE_GVLF |
-| Tường | TK_GVLW | UPDATE_GVLW |
-| Chi tiết | TK_GCT | UPDATE_GCT |
+| Nhóm | Tạo bảng theo phạm vi chọn | Tự quét toàn bản vẽ | Cập nhật ký hiệu |
+| --- | --- | --- | --- |
+| Sàn | TK_GVLS | TKA_GVLS | UPDATE_GVLS |
+| Trần | TK_GVLT | TKA_GVLT | UPDATE_GVLT |
+| Finish | TK_GVLF | TKA_GVLF | UPDATE_GVLF |
+| Tường | TK_GVLW | TKA_GVLW | UPDATE_GVLW |
+| Chi tiết | TK_GCT | TKA_GCT | UPDATE_GCT |
 
-Có cả tên đầy đủ với tiền tố TK_/UPDATE_ trước lệnh ghi ký hiệu. Các lệnh nằm trong nhóm **Thống kê**. `TA_OPTION → Thống kê` có năm trang riêng để chỉnh tiêu đề, font, cao chữ/hàng, rộng năm cột, lề, layer/màu, tên mặc định và phạm vi. Kích thước nhập theo mm trên giấy rồi nhân tỷ lệ Dim. Chọn ký hiệu hoặc toàn bản vẽ; mã trùng gộp một dòng. UPDATE cho phép đổi mã, giữ STT gốc, không thêm/xóa dòng/cột. Tên/Chú thích lưu trên ký hiệu cùng DWG.
+Có cả tên đầy đủ với tiền tố TK_/TKA_/UPDATE_ trước lệnh ghi ký hiệu. Các lệnh nằm trong nhóm **Thống kê**. `TA_OPTION → Thống kê` có năm trang riêng để chỉnh tiêu đề, font, cao chữ/hàng, rộng năm cột, lề, layer/màu, tên mặc định và phạm vi. TKA_ dùng chung cài đặt TK_ nhưng luôn lấy toàn bản vẽ. Kích thước nhập theo mm trên giấy rồi nhân tỷ lệ Dim. Các mã trùng gộp một dòng. UPDATE cho phép đổi mã, giữ STT gốc, không thêm/xóa dòng/cột. Tên/Chú thích lưu trên ký hiệu cùng DWG.
 
 Các lệnh ghi vật liệu mới dùng tỷ lệ Dim hiện hành, có preview và pick liên tục như GHICHITIET:
 
@@ -43,17 +45,17 @@ Cả gói Setup và Update đều mang theo `TA_tool_V1.dwg` có block `.SPEC_Ne
 
 Giữ hình học và các bản chèn block không chọn. **Block động được chọn có nội dung cần chuẩn hóa sẽ thành block tĩnh riêng theo hình đang hiển thị.** Lệnh báo bỏ qua Xref, layer khóa và các trường hợp không thể xác định/áp dụng chuẩn.
 
-Bản này tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết phía trong hàng DIM hiện có, thư viện cấu tạo và các chức năng TA Tool trước đó. Bốn DLL cùng nhãn phát hành 1.5.1.06 (AssemblyVersion 1.5.1.6); 245 tên lệnh tích hợp và 53 tên lệnh kiến trúc khớp giữa hai runtime.
+Bản này tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết phía trong hàng DIM hiện có, thư viện cấu tạo và các chức năng TA Tool trước đó. Bốn DLL cùng nhãn phát hành 1.5.1.07 (AssemblyVersion 1.5.1.7); 255 tên lệnh tích hợp và 53 tên lệnh kiến trúc khớp giữa hai runtime.
 
 ## Cài đặt và cập nhật
 
-- **Cài mới:** [tải bộ cài 1.5.1.06](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.06/TA_Tool_Setup_1.5.1.06.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe trong thư mục đã giải nén.
+- **Cài mới:** [tải bộ cài 1.5.1.07](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.07/TA_Tool_Setup_1.5.1.07.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe trong thư mục đã giải nén.
 - **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
-- **Offline:** [tải gói cập nhật 1.5.1.06](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.06/TA_Tool_Update_1.5.1.06.zip).
+- **Offline:** [tải gói cập nhật 1.5.1.07](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.07/TA_Tool_Update_1.5.1.07.zip).
 
-Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.06 đạt 1072 kiểm tra nền trên đúng DLL tích hợp đóng gói: 825 bảng/cài đặt/MLeader/vật liệu/Excel/VX, 172 ghi chú và C2S cho ký hiệu, 2 alias ghi chú kết hợp MLEADER native, 34 C2S và 39 trường hợp AutoDim. Bộ cài chọn đúng nhánh cho 2022–2026. Nguồn AutoDim giữ nguyên bản .04; thư viện CAD và các tài nguyên cập nhật khác giữ nguyên SHA-256. Form cài đặt được dựng/lưu thử ngoài màn hình. Preview/phím/hộp thoại, bước mở MLEADER tương tác của GC, host 2022–2024 và giao diện bộ cài cần kiểm trực tiếp; kiểm tra phím dùng đầu vào mô phỏng.
+Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.07 đạt 1108 kiểm tra nền trên đúng DLL tích hợp đóng gói: 861 bảng/cài đặt/MLeader/vật liệu/Excel/VX, 172 ghi chú và C2S cho ký hiệu, 2 alias ghi chú kết hợp MLEADER native, 34 C2S và 39 trường hợp AutoDim. Có 20 kiểm tra chạy cả mười tên TKA_ và UPDATE_ thực, lấy ký hiệu Model/Layout/block đã chèn và đặt bảng theo UCS. Bộ cài chọn đúng nhánh cho 2022–2026. Nguồn AutoDim giữ nguyên bản .04; thư viện CAD và các tài nguyên cập nhật khác giữ nguyên SHA-256. Form cài đặt được dựng/lưu thử ngoài màn hình. Máy kiểm tra có AutoCAD 2025; nhánh 2022–2024 đã kiểm tra biên dịch và metadata. Preview/phím/hộp thoại, bước mở MLEADER tương tác của GC và giao diện bộ cài cần kiểm trực tiếp; kiểm tra phím dùng đầu vào mô phỏng.
 
-[Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.06/RELEASE_NOTES_1.5.1.06.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.06/verification.json) · [SHA-256](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.06/SHA256SUMS_1.5.1.06.txt) · [Tài liệu, schema và mẫu TC2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Construction_Docs_1.4.3.87.zip).
+[Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.07/RELEASE_NOTES_1.5.1.07.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.07/verification.json) · [SHA-256](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.07/SHA256SUMS_1.5.1.07.txt) · [Tài liệu, schema và mẫu TC2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.4.3.87/TA_Construction_Docs_1.4.3.87.zip).
 
 ## Quản lý lớp cắt vật liệu
 
