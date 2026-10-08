@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.07",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.07/TA_Tool_Update_1.5.1.07.zip",
-  "sha256": "CFD0BAC50A0A5AABA7DF016D2182781DA2C0C1300484CFCEDB2D730BA07C76EE",
-  "notes": "Them TKA_ thong ke toan ban ve cho 5 nhom vat lieu/chi tiet, di thang den diem dat bang. Dong bo 255 lenh giua AutoCAD 2022-2024 va 2025; dung chung cai dat TK_ va UPDATE_. Kem thu vien CAD; giu cac tinh nang GHICHU/GC, C2S, AutoDim."
+  "version": "1.5.1.08",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.08/TA_Tool_Update_1.5.1.08.zip",
+  "sha256": "EC3BACC56CDF6A3E74418D195B6544EA7B68DC10EBBC7786F8428547E5168755",
+  "notes": "Sua Xref thieu chen nhieu lan va Bind khong thanh cong cho cac lenh Gop File, thu muc, bao ve va Sheet Set."
 }
