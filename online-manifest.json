@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.05",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.05/TA_Tool_Update_1.5.1.05.zip",
-  "sha256": "8726B8A4BC8091A6559E9AB81405E6CE8D213250FB3CAEB4380B06540E88CC84",
-  "notes": "Them GVLS/GVLT/GVLF/GVLW tao MLeader vat lieu. SP la tien to, NO tu tang cho san/tran; finish/wall tang ma A-01, A-02. Preview, pick lien tuc, Tab doi phia, S doi tien to, Enter/Space ket thuc. Kem thu vien CAD; giu AutoDim ZXY ban .04."
+  "version": "1.5.1.06",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.06/TA_Tool_Update_1.5.1.06.zip",
+  "sha256": "7A04D6ADA2668D7D5409C2C5A4EA4FFF914EBB2DC41FC93AEE97D06A674D4792",
+  "notes": "Them GHICHU/GC goi MLeader .MLD theo Dim; C2S doi ty le ky hieu vat lieu/chi tiet. Them GCT, TK_/UPDATE_ cho 5 nhom; TA_OPTION co cai dat bang rieng. Kem thu vien CAD; giu AutoDim ZXY ban .04."
 }
