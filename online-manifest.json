@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.08",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.08/TA_Tool_Update_1.5.1.08.zip",
-  "sha256": "EC3BACC56CDF6A3E74418D195B6544EA7B68DC10EBBC7786F8428547E5168755",
-  "notes": "Sua Xref thieu chen nhieu lan va Bind khong thanh cong cho cac lenh Gop File, thu muc, bao ve va Sheet Set."
+  "version": "1.5.1.09",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.09/TA_Tool_Update_1.5.1.09.zip",
+  "sha256": "2A967FB351E5C0DA3AFB6CB802C7DCBFCFEFB0368A12D4BCFC457157EA6C5751",
+  "notes": "DTS: gop Sheet Set dang mo, canh bao thu tu Layout/Ten Sheet, xac minh, sap xep ten va sap xep dong theo Layout (chon vai dong hoac tat ca)."
 }
