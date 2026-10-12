@@ -2,7 +2,14 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.10 — R2LS: tag tên bản vẽ TENBANVE](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.10).
+Phiên bản chính thức hiện tại: [v1.5.1.11 — R2L: bỏ _XREF ở tỷ lệ bản vẽ](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.11).
+
+Field **Tỷ lệ bản vẽ** trong `R2L`/`S2L` và ATT **SC_DW** của TENBANVE hiển thị tỷ lệ số dạng **1:X**, bỏ hậu tố `_XREF` từ tên scale. Ví dụ `A3 1:50_XREF` → `A3 1:50`; tỷ lệ 87.5 hiển thị `A3 1:87.5`. Field vẫn liên kết với viewport và cập nhật khi đổi tỷ lệ, kể cả tỷ lệ tùy chỉnh và đơn vị mm/m.
+
+Bản 1.5.1.11 được đóng gói từ nguồn 1.5.1.10, sửa cách định dạng Field tỷ lệ; đạt 45 kiểm tra R2L/TENBANVE và 6 kiểm tra lỗi tên scale trên AutoCAD 2025 Core Console. Áp dụng khi chèn bằng bản mới; Field đã chèn trước đây cần chèn lại để đổi mã Field. Hai nhánh DLL giữ 255 lệnh tích hợp và 53 lệnh kiến trúc, cùng AssemblyVersion 1.5.1.11. Bộ cài được kiểm tra chọn đúng DLL cho 2022–2026; tài nguyên CAD và các payload ngoài bốn DLL giữ SHA-256 của 1.5.1.10.
+
+[Ghi chú 1.5.1.11](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.11/RELEASE_NOTES_1.5.1.11.md) · [Báo cáo xác minh 1.5.1.11](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.11/verification.json) · [SHA-256 1.5.1.11](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.11/SHA256SUMS_1.5.1.11.txt).
+
 
 `R2LS` có thêm ô **Chèn tag tên bản vẽ (block TENBANVE)** dưới **Tự động chèn Field**. Tích ô, bấm **Lưu** rồi chạy `R2L`: **SC_DW** lấy cùng Field tỷ lệ bản vẽ, **NAME_DW** lấy cùng Field tên bản vẽ, **NUM = 1**. Block có scale 1, đặt trùng góc dưới trái MV; **Distance = X rộng hữu dụng** trong phần khổ giấy. TENBANVE tự nạp từ thư viện TA khi còn thiếu; hỗ trợ tham số Distance/Distance1. Tùy chọn cũng có trong S2LS.
 
@@ -64,9 +71,9 @@ Bản 1.5.1.07 tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết p
 
 ## Cài đặt và cập nhật
 
-- **Cài mới:** [tải bộ cài 1.5.1.10](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.10/TA_Tool_Setup_1.5.1.10.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe trong thư mục đã giải nén.
+- **Cài mới:** [tải bộ cài 1.5.1.11](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.11/TA_Tool_Setup_1.5.1.11.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe trong thư mục đã giải nén.
 - **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
-- **Offline:** [tải gói cập nhật 1.5.1.10](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.10/TA_Tool_Update_1.5.1.10.zip).
+- **Offline:** [tải gói cập nhật 1.5.1.11](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.11/TA_Tool_Update_1.5.1.11.zip).
 
 Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.07 đạt 1108 kiểm tra nền trên đúng DLL tích hợp đóng gói: 861 bảng/cài đặt/MLeader/vật liệu/Excel/VX, 172 ghi chú và C2S cho ký hiệu, 2 alias ghi chú kết hợp MLEADER native, 34 C2S và 39 trường hợp AutoDim. Có 20 kiểm tra chạy cả mười tên TKA_ và UPDATE_ thực, lấy ký hiệu Model/Layout/block đã chèn và đặt bảng theo UCS. Bộ cài chọn đúng nhánh cho 2022–2026. Nguồn AutoDim giữ nguyên bản .04; thư viện CAD và các tài nguyên cập nhật khác giữ nguyên SHA-256. Form cài đặt được dựng/lưu thử ngoài màn hình. Máy kiểm tra có AutoCAD 2025; nhánh 2022–2024 đã kiểm tra biên dịch và metadata. Preview/phím/hộp thoại, bước mở MLEADER tương tác của GC và giao diện bộ cài cần kiểm trực tiếp; kiểm tra phím dùng đầu vào mô phỏng.
 

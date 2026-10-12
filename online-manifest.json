@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.10",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.10/TA_Tool_Update_1.5.1.10.zip",
-  "sha256": "F63B405BD06F921C3A716C765ECD21271619DAFC64BD1476E0842C0ADEBA9D38",
-  "notes": "R2LS: tuy chon chen tag TENBANVE; SC_DW theo Field ty le, NAME_DW theo Field ten ban ve, NUM=1; Scale=1, goc duoi trai MV, Distance=X rong huu dung."
+  "version": "1.5.1.11",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.11/TA_Tool_Update_1.5.1.11.zip",
+  "sha256": "84617650D6975BC21C8C223018BFE2F52BE907458594B7C3156402A92CEA6DEE",
+  "notes": "R2L/R2LS: bo hau to _XREF trong Field ty le va SC_DW; hien thi ty le so 1:X, giu lien ket viewport va ty le tuy chinh."
 }
