@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.11",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.11/TA_Tool_Update_1.5.1.11.zip",
-  "sha256": "84617650D6975BC21C8C223018BFE2F52BE907458594B7C3156402A92CEA6DEE",
-  "notes": "R2L/R2LS: bo hau to _XREF trong Field ty le va SC_DW; hien thi ty le so 1:X, giu lien ket viewport va ty le tuy chinh."
+  "version": "1.5.1.12",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.12/TA_Tool_Update_1.5.1.12.zip",
+  "sha256": "1C06C9750C68B71045DD9B5E84BF730F50B06C443061B3301EA27F7C917097E9",
+  "notes": "DTS: tu mo Sheet Set lien ket voi DWG dang mo, fallback DST gan nhat hoac chon file; sua vong doi COM dung chung."
 }
