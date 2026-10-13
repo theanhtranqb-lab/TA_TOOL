@@ -2,7 +2,14 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.12 — DTS: tự mở Sheet Set của DWG](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.12).
+Phiên bản chính thức hiện tại: [v1.5.1.13 — CHUYEN_DIMTEXT: tạo lại DimStyle theo VX/VXS](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.13).
+
+Thêm lệnh **CHUYEN_DIMTEXT**: tự động tạo lại toàn bộ DimStyle trong DWG hiện tại theo chuẩn **VX/VXS**, đúng tỷ lệ riêng của từng style, rồi áp dụng cho dim đã vẽ. Ghi đè **TA_Text1**, Width Factor **0.75**, Height **0**; font, chiều cao cơ sở và loại dấu dim lấy từ VXS. VX/Vxx cũng giữ Width Factor 0.75 khi đổi tỷ lệ.
+
+Xử lý riêng tỷ lệ Model, bộ DimStyle `.DLAY` dùng kích thước giấy, dim annotative, style có chiều cao `.H` và các style thông thường. Giữ tên/ID, hình học, nội dung chữ và Field; thay thông số và override dim cũ bằng bộ chuẩn mới. Bỏ qua các style/block thuộc Xref. Đạt **134 kiểm tra** trên AutoCAD 2025 Core Console với DLL tích hợp, gồm chữ dựng lại đúng chiều cao, block/layer khóa, thay đổi VXS, chạy lặp, hoàn tác khi lỗi và lưu/mở lại DWG. Hai nhánh DLL có **256 lệnh tích hợp**, cùng 53 lệnh kiến trúc; host AutoCAD 2022–2024/2026 chưa chạy.
+
+[Ghi chú 1.5.1.13](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.13/RELEASE_NOTES_1.5.1.13.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.13/verification.json) · [SHA-256](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.13/SHA256SUMS_1.5.1.13.txt).
+
 
 Khi gọi **DTS**, công cụ ưu tiên **Sheet Set liên kết với DWG đang mở**, sau đó dùng DST mở gần nhất còn tồn tại; nếu cả hai không có thì cho chọn file. Ưu tiên Layout đang hiện; khi ở Model, kiểm tra các Layout giấy còn lại. Đường dẫn Excel theo đúng DST được chọn.
 
@@ -78,9 +85,9 @@ Bản 1.5.1.07 tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết p
 
 ## Cài đặt và cập nhật
 
-- **Cài mới:** [tải bộ cài 1.5.1.12](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.12/TA_Tool_Setup_1.5.1.12.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe trong thư mục đã giải nén.
+- **Cài mới:** [tải bộ cài 1.5.1.13](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.13/TA_Tool_Setup_1.5.1.13.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe trong thư mục đã giải nén.
 - **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
-- **Offline:** [tải gói cập nhật 1.5.1.12](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.12/TA_Tool_Update_1.5.1.12.zip).
+- **Offline:** [tải gói cập nhật 1.5.1.13](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.13/TA_Tool_Update_1.5.1.13.zip).
 
 Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.07 đạt 1108 kiểm tra nền trên đúng DLL tích hợp đóng gói: 861 bảng/cài đặt/MLeader/vật liệu/Excel/VX, 172 ghi chú và C2S cho ký hiệu, 2 alias ghi chú kết hợp MLEADER native, 34 C2S và 39 trường hợp AutoDim. Có 20 kiểm tra chạy cả mười tên TKA_ và UPDATE_ thực, lấy ký hiệu Model/Layout/block đã chèn và đặt bảng theo UCS. Bộ cài chọn đúng nhánh cho 2022–2026. Nguồn AutoDim giữ nguyên bản .04; thư viện CAD và các tài nguyên cập nhật khác giữ nguyên SHA-256. Form cài đặt được dựng/lưu thử ngoài màn hình. Máy kiểm tra có AutoCAD 2025; nhánh 2022–2024 đã kiểm tra biên dịch và metadata. Preview/phím/hộp thoại, bước mở MLEADER tương tác của GC và giao diện bộ cài cần kiểm trực tiếp; kiểm tra phím dùng đầu vào mô phỏng.
 
