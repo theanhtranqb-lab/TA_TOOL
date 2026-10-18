@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.17",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.17/TA_Tool_Update_1.5.1.17.zip",
-  "sha256": "E05AE809E63A06EBF98588E46FBE62185CE6F2CE01A81394C89ABEFC6ED7AB98",
-  "notes": "Cap nhat TA_Tool_V1.VLX moi bien dich ngay 18/10/2026; giu cau hinh luoi truc, NEO Cote va thu vien TA_tool_V2.dwg."
+  "version": "1.5.1.18",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.18/TA_Tool_Update_1.5.1.18.zip",
+  "sha256": "51AF1609C7BD8C065D8C3A3BE6A8FF2803FA57C0A8C4CBCB7BB758C4F1544281",
+  "notes": "TAOPTION Dim va ty le: he so rong chu mac dinh 0.75; TA2/TA3 ap dung ngay cho dim va text hien co; CHUYEN_DIMTEXT dung chung thiet lap."
 }
