@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.15",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.15/TA_Tool_Update_1.5.1.15.zip",
-  "sha256": "C3FBFBE5A4BC0B63F5C72A318F6C5C7FE3C9086EE1258FCD5C4EFE44126BCF45",
-  "notes": "ZXY/VLC/VMG: TAOPTION Luoi truc, preview CAD, vong truc 8mm, block .NEO_BL_Cote va thu vien TA_tool_V2.dwg."
+  "version": "1.5.1.16",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.16/TA_Tool_Update_1.5.1.16.zip",
+  "sha256": "43441F48CA76D0ED2AD106A28C0C3BDC463C31BA56991F34711324A39AD118DC",
+  "notes": "Dong bo CD1/VLC/VMG sang .NEO_BL_Cote: COTE, FL trong, Front; kiem tra 4 mac dinh ZXY; kem TA_tool_V2.dwg."
 }
