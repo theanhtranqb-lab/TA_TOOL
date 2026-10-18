@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.20",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.20/TA_Tool_Update_1.5.1.20.zip",
-  "sha256": "266788ED2BE0D7ECC10C1958398F7E89E10ADB5E847A930FAE93A276319769DE",
-  "notes": "Cap nhat TA_Tool_V1.VLX moi bien dich luc 20:46 ngay 18/10/2026; giu bo cuc VLC/VMG dich trai 12 mm va he so rong chu TAOPTION."
+  "version": "1.5.1.21",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.21/TA_Tool_Update_1.5.1.21.zip",
+  "sha256": "EDD6B93C6AA1B0E0766A145F24C1712081C8C27E89B8F373E2ED3EE5E17D8324",
+  "notes": "TAOPTION: bang ma do va vat lieu sua/luu; ky hieu ghi chi tiet/vat lieu dung .A.080.Kihieu; bang TK/TKA mac dinh .A.089.Bangthongke."
 }
