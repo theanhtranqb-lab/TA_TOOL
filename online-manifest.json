@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.23",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.23/TA_Tool_Update_1.5.1.23.zip",
-  "sha256": "1018C73D08D49F85FF083DCE9B9A96E3AEB325640D37DE88073CCE0FFE01087E",
-  "notes": "TAOPTION them 14 ma tuong/vach va 20 ma hoan thien be mat; thong ke tra dung bang theo nhom va giu ma cu."
+  "version": "1.5.1.24",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.24/TA_Tool_Update_1.5.1.24.zip",
+  "sha256": "721F8B2A0C5C6244153AD1CFAE507DAF6FA9ED8B028E4205470B096F443D3D6E",
+  "notes": "Luoi truc: mep vong tron va chan truc cach hang dim 3 mm tren giay; dong bo ZXY/VLC/VMG/VLT va preview; giu cap nhat bang ma 1.5.1.23."
 }
