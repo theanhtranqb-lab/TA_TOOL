@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.19",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.19/TA_Tool_Update_1.5.1.19.zip",
-  "sha256": "DB17838E9B8F272FFEE705BC58695FA27E8AC3293C500A823A021719E84C1120",
-  "notes": "VLC/VMG: dich ca ten tang va ky hieu cote sang trai 12 mm tren giay, giu can duoi phai va khoang cach 3 mm; dong bo preview."
+  "version": "1.5.1.20",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.20/TA_Tool_Update_1.5.1.20.zip",
+  "sha256": "266788ED2BE0D7ECC10C1958398F7E89E10ADB5E847A930FAE93A276319769DE",
+  "notes": "Cap nhat TA_Tool_V1.VLX moi bien dich luc 20:46 ngay 18/10/2026; giu bo cuc VLC/VMG dich trai 12 mm va he so rong chu TAOPTION."
 }
