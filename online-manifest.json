@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.18",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.18/TA_Tool_Update_1.5.1.18.zip",
-  "sha256": "51AF1609C7BD8C065D8C3A3BE6A8FF2803FA57C0A8C4CBCB7BB758C4F1544281",
-  "notes": "TAOPTION Dim va ty le: he so rong chu mac dinh 0.75; TA2/TA3 ap dung ngay cho dim va text hien co; CHUYEN_DIMTEXT dung chung thiet lap."
+  "version": "1.5.1.19",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.19/TA_Tool_Update_1.5.1.19.zip",
+  "sha256": "DB17838E9B8F272FFEE705BC58695FA27E8AC3293C500A823A021719E84C1120",
+  "notes": "VLC/VMG: dich ca ten tang va ky hieu cote sang trai 12 mm tren giay, giu can duoi phai va khoang cach 3 mm; dong bo preview."
 }
