@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.14",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.14/TA_Tool_Update_1.5.1.14.zip",
-  "sha256": "327AC5E9E4080C9865A0B54BF6369C69347F97ABCB37B4290DCF645807E7A7FD",
-  "notes": "CHUYEN_DIMTEXT_THUMUC: quet DWG ca thu muc con, ghi de DimStyle VX/VXS; ban sao .bak va bao cao tung file."
+  "version": "1.5.1.15",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.15/TA_Tool_Update_1.5.1.15.zip",
+  "sha256": "C3FBFBE5A4BC0B63F5C72A318F6C5C7FE3C9086EE1258FCD5C4EFE44126BCF45",
+  "notes": "ZXY/VLC/VMG: TAOPTION Luoi truc, preview CAD, vong truc 8mm, block .NEO_BL_Cote va thu vien TA_tool_V2.dwg."
 }
