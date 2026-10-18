@@ -2,7 +2,16 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.21 — Bảng mã TAOption và layer ký hiệu/thống kê](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.21).
+Phiên bản chính thức hiện tại: [v1.5.1.22 — Tên vật liệu thống kê theo bảng mã TAOption](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.22).
+
+Các lệnh **TK_… / TKA_…** cho **sàn, trần, hoàn thiện và tường** tự điền cột **Tên** theo **TAOPTION → Thống kê → Bảng mã vật liệu** đã lưu. Ví dụ TL-01 là gạch, GY-01 là thạch cao, F-WD-01 là gỗ. Giữ tên riêng đã sửa thủ công và Chú thích; mã chưa có dùng tên mặc định của nhóm.
+
+Mỗi lần thống kê đọc lại bảng mã đã lưu. Chạy lại lệnh thống kê để tạo bảng có tên đúng. Giữ các tính năng bảng mã sửa/lưu và layer ký hiệu/thống kê của v1.5.1.21.
+
+Đã chạy **738 kiểm tra trên AutoCAD 2025** cho bốn nhóm vật liệu, MLeader/block thường, lưu/mở lại bảng mã, UPDATE, layer và giao diện; đối chiếu lệnh hai nhánh DLL, lựa chọn DLL bộ cài và SHA-256 các gói. Host AutoCAD 2022–2024/2026 chưa chạy trực tiếp.
+
+[Ghi chú 1.5.1.22](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.22/RELEASE_NOTES_1.5.1.22.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.22/verification.json).
+
 
 Thêm **TAOPTION → Thống kê → Bảng mã đồ / Bảng mã vật liệu**, có ba cột Code, tên tiếng Việt và tên tiếng Anh; cho phép sửa, thêm, xóa, lưu và khôi phục 27 mã đồ / 31 mã vật liệu. `TKD`, `TKV`, `TKVSEL` dùng bảng đã lưu khi tạo thống kê mới.
 
@@ -143,9 +152,9 @@ Bản 1.5.1.07 tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết p
 
 ## Cài đặt và cập nhật
 
-- **Cài mới:** [tải bộ cài 1.5.1.21](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.21/TA_Tool_Setup_1.5.1.21.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
+- **Cài mới:** [tải bộ cài 1.5.1.22](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.22/TA_Tool_Setup_1.5.1.22.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
 - **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
-- **Offline:** [tải gói cập nhật 1.5.1.21](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.21/TA_Tool_Update_1.5.1.21.zip).
+- **Offline:** [tải gói cập nhật 1.5.1.22](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.22/TA_Tool_Update_1.5.1.22.zip).
 
 Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.07 đạt 1108 kiểm tra nền trên đúng DLL tích hợp đóng gói: 861 bảng/cài đặt/MLeader/vật liệu/Excel/VX, 172 ghi chú và C2S cho ký hiệu, 2 alias ghi chú kết hợp MLEADER native, 34 C2S và 39 trường hợp AutoDim. Có 20 kiểm tra chạy cả mười tên TKA_ và UPDATE_ thực, lấy ký hiệu Model/Layout/block đã chèn và đặt bảng theo UCS. Bộ cài chọn đúng nhánh cho 2022–2026. Nguồn AutoDim giữ nguyên bản .04; thư viện CAD và các tài nguyên cập nhật khác giữ nguyên SHA-256. Form cài đặt được dựng/lưu thử ngoài màn hình. Máy kiểm tra có AutoCAD 2025; nhánh 2022–2024 đã kiểm tra biên dịch và metadata. Preview/phím/hộp thoại, bước mở MLEADER tương tác của GC và giao diện bộ cài cần kiểm trực tiếp; kiểm tra phím dùng đầu vào mô phỏng.
 

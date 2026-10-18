@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.21",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.21/TA_Tool_Update_1.5.1.21.zip",
-  "sha256": "EDD6B93C6AA1B0E0766A145F24C1712081C8C27E89B8F373E2ED3EE5E17D8324",
-  "notes": "TAOPTION: bang ma do va vat lieu sua/luu; ky hieu ghi chi tiet/vat lieu dung .A.080.Kihieu; bang TK/TKA mac dinh .A.089.Bangthongke."
+  "version": "1.5.1.22",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.22/TA_Tool_Update_1.5.1.22.zip",
+  "sha256": "F66C7A45AFDE064223A3EE34B031B3E0F7FCEFFFDDA7362279E570150C391167",
+  "notes": "Thong ke san/tran/hoan thien/tuong tu dien ten vat lieu theo bang ma TAOPTION da luu; giu ten rieng va chu thich."
 }
