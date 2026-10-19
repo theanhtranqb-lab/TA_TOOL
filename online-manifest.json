@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.28",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.28/TA_Tool_Update_1.5.1.28.zip",
-  "sha256": "D1591285F5F3414862EC9D8C71F75B759719E2002A7FEC2318465FD5A4B366FB",
-  "notes": "Them lenh TV; thu vien CAD V2 moi; tu hien V2 trong TAOPTION; chuyen cau hinh va bo cai/cap nhat sang V2."
+  "version": "1.5.1.29",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.29/TA_Tool_Update_1.5.1.29.zip",
+  "sha256": "8B2F12CEB38C2D92347E58FAFAD3F50B3B545BF747E9658C2656BC7F7BA3A1EE",
+  "notes": "Sua Gop_SheetSet/DTS: cho phep DWG va Xref dang mo; dong goi ban da luu tren dia, khong can dong ban ve."
 }
