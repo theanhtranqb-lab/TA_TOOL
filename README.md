@@ -2,7 +2,16 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.27 — ZXY: tỷ lệ trên Defpoints, VLC/VMG đọc đúng trục](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.27).
+Phiên bản chính thức hiện tại: [v1.5.1.28 — TV và thư viện V2 trong TAOPTION](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.28).
+
+**TV và thư viện CAD V2.** Gõ `TV` để mở thư viện đi kèm phiên bản phát hành; nếu file đã mở thì chuyển về tab đó. Dùng đúng `TA_tool_V2.dwg` mới nhất từ thư mục CAD nguồn.
+
+**TAOPTION → Thư viện Block** tự hiển thị V2 trong danh sách file DWG, không thêm trùng khi lưu/mở lại và vẫn giữ thư viện riêng. Thư viện IB, mẫu Drawing/Sheet, ghi chú, R2L, công cụ kiến trúc, bộ cài và cập nhật dùng V2 làm mặc định; cấu hình BUNDLED_FILE/FILE1 được chuyển tự động.
+
+Đã đạt **80 kiểm tra** trên DLL đóng gói, bộ cài và updater; đối chiếu SHA-256 toàn bộ gói. Kiểm tra host dùng AutoCAD 2025 Core Console; host 2022–2024/2026 chưa chạy. VLX giữ nguyên từ 1.5.1.27; không kèm FAS.
+
+[Ghi chú 1.5.1.28](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.28/RELEASE_NOTES_1.5.1.28.md) · [Thư viện CAD V2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.28/TA_tool_V2.dwg) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.28/verification.json).
+
 
 **ZXY: chữ tỷ lệ trên Defpoints.** Ghi `TY LE 1/X` theo tỷ lệ vẽ thực tế, kể cả khi chọn tỷ lệ thủ công. VLC và VMG bỏ qua dòng tỷ lệ khi đọc ký hiệu trục trong block mới, block cũ hoặc block lồng nhau.
 
@@ -181,7 +190,7 @@ Vào `GHICHITIET` là có preview theo con trỏ; mỗi pick đặt đầu mũi 
 
 `TUDONG_GHI_TRICHCHITIET` đọc Excel: cột A là `NO.`, cột B là `Num`, rồi cập nhật `Num` cho MLeader có mã tương ứng. Giữ số 0 đầu theo định dạng Excel; kiểm tra mã trùng mâu thuẫn trước khi sửa. Cần Microsoft Excel cài trên máy.
 
-Cả gói Setup và Update đều mang theo `TA_tool_V1.dwg` có block `.SPEC_Neo_Detail` và bốn block vật liệu. Block còn thiếu tự nạp từ thư viện, kèm các block lồng phụ thuộc. Khi cài/cập nhật, DWG được đặt cạnh DLL.
+Cả gói Setup và Update đều mang theo `TA_tool_V2.dwg` có block `.SPEC_Neo_Detail` và bốn block vật liệu. Block còn thiếu tự nạp từ thư viện, kèm các block lồng phụ thuộc. Khi cài/cập nhật, DWG được đặt cạnh DLL.
 
 `CHANGE_OBJ2SCALE` (lệnh tắt `C2S`) xử lý nhiều đối tượng rời, block và block lồng: chuẩn hóa TEXT/MTEXT/ATT, DIM, Hatch đã định nghĩa trong thư viện TA và ghi chú LEADER/MLEADER. Đặt dim/text hiện hành bằng VX hoặc lệnh Vxx, chạy C2S, chọn đối tượng, Enter. Khi Hatch trùng nhiều mẫu, chọn mẫu chuẩn; Enter bỏ qua nhóm, Esc hủy lượt xử lý.
 
@@ -191,9 +200,9 @@ Bản 1.5.1.07 tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết p
 
 ## Cài đặt và cập nhật
 
-- **Cài mới:** [tải bộ cài 1.5.1.27](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.27/TA_Tool_Setup_1.5.1.27.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
+- **Cài mới:** [tải bộ cài 1.5.1.28](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.28/TA_Tool_Setup_1.5.1.28.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
 - **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
-- **Offline:** [tải gói cập nhật 1.5.1.27](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.27/TA_Tool_Update_1.5.1.27.zip).
+- **Offline:** [tải gói cập nhật 1.5.1.28](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.28/TA_Tool_Update_1.5.1.28.zip).
 
 Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.07 đạt 1108 kiểm tra nền trên đúng DLL tích hợp đóng gói: 861 bảng/cài đặt/MLeader/vật liệu/Excel/VX, 172 ghi chú và C2S cho ký hiệu, 2 alias ghi chú kết hợp MLEADER native, 34 C2S và 39 trường hợp AutoDim. Có 20 kiểm tra chạy cả mười tên TKA_ và UPDATE_ thực, lấy ký hiệu Model/Layout/block đã chèn và đặt bảng theo UCS. Bộ cài chọn đúng nhánh cho 2022–2026. Nguồn AutoDim giữ nguyên bản .04; thư viện CAD và các tài nguyên cập nhật khác giữ nguyên SHA-256. Form cài đặt được dựng/lưu thử ngoài màn hình. Máy kiểm tra có AutoCAD 2025; nhánh 2022–2024 đã kiểm tra biên dịch và metadata. Preview/phím/hộp thoại, bước mở MLEADER tương tác của GC và giao diện bộ cài cần kiểm trực tiếp; kiểm tra phím dùng đầu vào mô phỏng.
 
