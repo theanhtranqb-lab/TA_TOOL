@@ -2,7 +2,14 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.25 — Cập nhật VLX và thư viện CAD mới](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.25).
+Phiên bản chính thức hiện tại: [v1.5.1.26 — VLC/VMG: cốt phụ P, dùng VLX mới](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.26).
+
+**VLC/VMG: hậu tố P cho cốt phụ.** Ví dụ `+1500P,+3600,+7200,+10800`: cốt +1.500 vẫn có ký hiệu cao độ và dim, nhưng không ghi tên và không tính là tầng. Số tầng, tầng tum và mái chỉ tính từ các cốt không có P. Preview TAOPTION đồng bộ.
+
+Bản này dùng đúng VLX người dùng build ngày 19/10/2026 lúc 00:18 và thư viện CAD mới lưu lúc 00:17. Không kèm FAS; lệnh lưới trục chạy từ VLX. Khi nâng cấp, cơ chế nạp FAS cũ được vô hiệu hóa để giữ đúng lệnh trong VLX mới.
+
+[Ghi chú 1.5.1.26](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.26/RELEASE_NOTES_1.5.1.26.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.26/verification.json).
+
 
 **Cập nhật VLX và thư viện CAD:** dùng đúng `TA_Tool_V1.VLX` người dùng vừa tạo lúc 23:55 và `TA_tool_V2.dwg` lưu lúc 23:36 ngày 18/10/2026. Cả bộ cài và gói TAUPDATE đều chứa hai tệp mới; có đính kèm riêng để tải.
 
@@ -177,9 +184,9 @@ Bản 1.5.1.07 tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết p
 
 ## Cài đặt và cập nhật
 
-- **Cài mới:** [tải bộ cài 1.5.1.25](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.25/TA_Tool_Setup_1.5.1.25.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
+- **Cài mới:** [tải bộ cài 1.5.1.26](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.26/TA_Tool_Setup_1.5.1.26.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
 - **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
-- **Offline:** [tải gói cập nhật 1.5.1.25](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.25/TA_Tool_Update_1.5.1.25.zip).
+- **Offline:** [tải gói cập nhật 1.5.1.26](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.26/TA_Tool_Update_1.5.1.26.zip).
 
 Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.07 đạt 1108 kiểm tra nền trên đúng DLL tích hợp đóng gói: 861 bảng/cài đặt/MLeader/vật liệu/Excel/VX, 172 ghi chú và C2S cho ký hiệu, 2 alias ghi chú kết hợp MLEADER native, 34 C2S và 39 trường hợp AutoDim. Có 20 kiểm tra chạy cả mười tên TKA_ và UPDATE_ thực, lấy ký hiệu Model/Layout/block đã chèn và đặt bảng theo UCS. Bộ cài chọn đúng nhánh cho 2022–2026. Nguồn AutoDim giữ nguyên bản .04; thư viện CAD và các tài nguyên cập nhật khác giữ nguyên SHA-256. Form cài đặt được dựng/lưu thử ngoài màn hình. Máy kiểm tra có AutoCAD 2025; nhánh 2022–2024 đã kiểm tra biên dịch và metadata. Preview/phím/hộp thoại, bước mở MLEADER tương tác của GC và giao diện bộ cài cần kiểm trực tiếp; kiểm tra phím dùng đầu vào mô phỏng.
 

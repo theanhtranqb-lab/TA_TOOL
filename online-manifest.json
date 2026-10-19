@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.25",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.25/TA_Tool_Update_1.5.1.25.zip",
-  "sha256": "5BD3AAF5665C63D01FC797228B82E3679E04EE88E7E8F9369894A300C07022E8",
-  "notes": "Cap nhat VLX nguoi dung tao 23:55 va thu vien CAD TA_tool_V2.dwg 23:36; giu khoang cach luoi truc 3 mm va toan bo tinh nang 1.5.1.24."
+  "version": "1.5.1.26",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.26/TA_Tool_Update_1.5.1.26.zip",
+  "sha256": "2D8673970955BB0B05025FF3AE70178273EABA86235D464063D44FBEDBF7F4B2",
+  "notes": "VLC/VMG ho tro hau to P: khong tinh tang, khong ghi ten tang; dong goi VLX moi va thu vien CAD moi, khong kem FAS."
 }
