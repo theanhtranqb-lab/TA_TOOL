@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.26",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.26/TA_Tool_Update_1.5.1.26.zip",
-  "sha256": "2D8673970955BB0B05025FF3AE70178273EABA86235D464063D44FBEDBF7F4B2",
-  "notes": "VLC/VMG ho tro hau to P: khong tinh tang, khong ghi ten tang; dong goi VLX moi va thu vien CAD moi, khong kem FAS."
+  "version": "1.5.1.27",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.27/TA_Tool_Update_1.5.1.27.zip",
+  "sha256": "B7374EFDBD51238A7D202876F371296396972C4A23F1E13DAED4F356FD7091A8",
+  "notes": "ZXY ghi TY LE 1/X tren Defpoints; VLC va VMG bo qua chu ty le khi doc truc. VLX moi, thu vien CAD V2, khong kem FAS."
 }
