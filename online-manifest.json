@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.30",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.30/TA_Tool_Update_1.5.1.30.zip",
-  "sha256": "7517745A42381BC1B669211F745562C0A092A7A9E8C7F01DF8835CEB454287E9",
-  "notes": "Sua updater: xac nhan worker khoi dong, tu chay lai worker bi dung, thu lai khi CAD mo qua som hoac file tam thoi bi khoa; kem goi phuc hoi cho ban cu."
+  "version": "1.5.1.31",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.31/TA_Tool_Update_1.5.1.31.zip",
+  "sha256": "415BBB318967DC9ADEEEF75AFC6DA933985E89FCC0988B940DF12270D48C5FE4",
+  "notes": "Sua Gop_SheetSet/DTS: tim layout da doi ten theo handle nguon, cap nhat ten va handle trong DST copy; ke thua sua updater 1.5.1.30."
 }

@@ -2,7 +2,16 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.30 — Sửa cập nhật đã tải nhưng chưa cài](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.30).
+Phiên bản chính thức hiện tại: [v1.5.1.31 — Sửa Gộp Sheet Set với layout đã đổi tên](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.31).
+
+**Sửa Gộp Sheet Set không tìm thấy layout đã đổi tên.** Lệnh `Gop_SheetSet` và nút đóng gói trong DTS xác định layout bằng handle trong DWG nguồn, rồi cập nhật tên và handle trên DST bản sao sau xuất.
+
+Nếu handle thiếu/cũ/không hợp lệ, tìm theo đúng tên layout đã lưu; không đoán theo thứ tự tab. Trường hợp tên cũ đã dùng lại cho layout khác vẫn nhận đúng layout gốc. Giữ nguyên DST/DWG nguồn.
+
+Đã kiểm tra trực tiếp DLL phát hành với 21 sheet của file bìa thực: sửa đúng hai tên `BÌA → B1`, `KT-01 → G-01`, toàn bộ handle đầu ra khớp và nguồn không đổi. Kiểm thử cả layout tiếng Việt, tên cũ được dùng lại, DWG/Xref đang mở, updater và bộ cài; đối chiếu SHA-256. Kế thừa bản sửa updater 1.5.1.30, thư viện V2 và VLX. Host 2022–2024/2026 chưa chạy trực tiếp.
+
+[Ghi chú 1.5.1.31](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.31/RELEASE_NOTES_1.5.1.31.md) · [Thư viện CAD V2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.31/TA_tool_V2.dwg) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.31/verification.json).
+
 
 **Sửa cập nhật đã tải nhưng chưa cài.** Updater xác nhận tiến trình cài nền đã khởi động, kiểm tra còn sống và tự khởi động lại nếu bị dừng. Thử lại khi file bị khóa tạm thời hoặc CAD mở lại trong lúc chuẩn bị cài; ghi rõ PID CAD đang chờ và lỗi cài đặt.
 
@@ -220,9 +229,9 @@ Bản 1.5.1.07 tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết p
 
 ## Cài đặt và cập nhật
 
-- **Cài mới:** [tải bộ cài 1.5.1.30](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.30/TA_Tool_Setup_1.5.1.30.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
+- **Cài mới:** [tải bộ cài 1.5.1.31](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.31/TA_Tool_Setup_1.5.1.31.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
 - **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
-- **Offline:** [tải gói cập nhật 1.5.1.30](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.30/TA_Tool_Update_1.5.1.30.zip).
+- **Offline:** [tải gói cập nhật 1.5.1.31](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.31/TA_Tool_Update_1.5.1.31.zip).
 
 Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.07 đạt 1108 kiểm tra nền trên đúng DLL tích hợp đóng gói: 861 bảng/cài đặt/MLeader/vật liệu/Excel/VX, 172 ghi chú và C2S cho ký hiệu, 2 alias ghi chú kết hợp MLEADER native, 34 C2S và 39 trường hợp AutoDim. Có 20 kiểm tra chạy cả mười tên TKA_ và UPDATE_ thực, lấy ký hiệu Model/Layout/block đã chèn và đặt bảng theo UCS. Bộ cài chọn đúng nhánh cho 2022–2026. Nguồn AutoDim giữ nguyên bản .04; thư viện CAD và các tài nguyên cập nhật khác giữ nguyên SHA-256. Form cài đặt được dựng/lưu thử ngoài màn hình. Máy kiểm tra có AutoCAD 2025; nhánh 2022–2024 đã kiểm tra biên dịch và metadata. Preview/phím/hộp thoại, bước mở MLEADER tương tác của GC và giao diện bộ cài cần kiểm trực tiếp; kiểm tra phím dùng đầu vào mô phỏng.
 
