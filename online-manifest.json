@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.31",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.31/TA_Tool_Update_1.5.1.31.zip",
-  "sha256": "415BBB318967DC9ADEEEF75AFC6DA933985E89FCC0988B940DF12270D48C5FE4",
-  "notes": "Sua Gop_SheetSet/DTS: tim layout da doi ten theo handle nguon, cap nhat ten va handle trong DST copy; ke thua sua updater 1.5.1.30."
+  "version": "1.5.1.33",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.33/TA_Tool_Update_1.5.1.33.zip",
+  "sha256": "4160E7F03C6C0F0E49E06B44C55D04FAE8DEBE55DB36889838260F28E3B66800",
+  "notes": "Them Codes vat lieu/thiet bi: nhap Excel, tao Excel mau, JSON/CSV; TA3 ap dung Dim/Text va mui ten Leader; TA_info ban quyen/cap nhat/chat. Dong goi DWG V1/V2 moi nhat tu 01A_CAD."
 }
