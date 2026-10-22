@@ -2,13 +2,21 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.34 — Bản cập nhật TA Tool](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.34).
+Phiên bản chính thức hiện tại: [v1.5.1.35 — Cải tiến lệnh tọa độ](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.35).
+
+Cải tiến các lệnh tọa độ bằng C#: MTD/MOCTOADO, XTD/XUATTOADO và NHAPTOADO dùng block động `.NEO_BL_RG_Full`, có preview, Space đổi Flip và Delete/Backspace đặt lại mốc. Kèm các file CAD và VLX mới nhất đã lưu.
+
+[Ghi chú 1.5.1.35](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.35/RELEASE_NOTES_1.5.1.35.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.35/verification.json).
+
+## Các cập nhật trước
+
+### Phiên bản 1.5.1.34
+
 
 Cập nhật và hoàn thiện một số chức năng của TA Tool.
 
 [Ghi chú 1.5.1.34](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.34/RELEASE_NOTES_1.5.1.34.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.34/verification.json).
 
-## Các cập nhật trước
 
 ### Phiên bản 1.5.1.33
 
@@ -251,9 +259,9 @@ Bản 1.5.1.07 tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết p
 
 ## Cài đặt và cập nhật
 
-- **Cài mới:** [tải bộ cài 1.5.1.34](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.34/TA_Tool_Setup_1.5.1.34.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
+- **Cài mới:** [tải bộ cài 1.5.1.35](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.35/TA_Tool_Setup_1.5.1.35.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
 - **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
-- **Offline:** [tải gói cập nhật 1.5.1.34](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.34/TA_Tool_Update_1.5.1.34.zip).
+- **Offline:** [tải gói cập nhật 1.5.1.35](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.35/TA_Tool_Update_1.5.1.35.zip).
 
 Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.07 đạt 1108 kiểm tra nền trên đúng DLL tích hợp đóng gói: 861 bảng/cài đặt/MLeader/vật liệu/Excel/VX, 172 ghi chú và C2S cho ký hiệu, 2 alias ghi chú kết hợp MLEADER native, 34 C2S và 39 trường hợp AutoDim. Có 20 kiểm tra chạy cả mười tên TKA_ và UPDATE_ thực, lấy ký hiệu Model/Layout/block đã chèn và đặt bảng theo UCS. Bộ cài chọn đúng nhánh cho 2022–2026. Nguồn AutoDim giữ nguyên bản .04; thư viện CAD và các tài nguyên cập nhật khác giữ nguyên SHA-256. Form cài đặt được dựng/lưu thử ngoài màn hình. Máy kiểm tra có AutoCAD 2025; nhánh 2022–2024 đã kiểm tra biên dịch và metadata. Preview/phím/hộp thoại, bước mở MLEADER tương tác của GC và giao diện bộ cài cần kiểm trực tiếp; kiểm tra phím dùng đầu vào mô phỏng.
 

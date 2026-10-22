@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.34",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.34/TA_Tool_Update_1.5.1.34.zip",
-  "sha256": "10993FF80623B8AB394622FCB2A7C62529BF4EE3ED505455A0BBEF4A9449470C",
-  "notes": "Cập nhật và hoàn thiện một số chức năng của TA Tool."
+  "version": "1.5.1.35",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.35/TA_Tool_Update_1.5.1.35.zip",
+  "sha256": "F8E428C2D2C3CC439E25F2A9CFCFA545730A7A75BA9DFCC129AB86C30A8704FE",
+  "notes": "Cải tiến MTD/MOCTOADO, XTD/XUATTOADO và NHAPTOADO bằng C#; block tọa độ động, preview, Flip và vẽ lại mốc. Kèm CAD và VLX mới nhất."
 }
