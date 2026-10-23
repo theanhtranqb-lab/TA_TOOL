@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.36",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.36/TA_Tool_Update_1.5.1.36.zip",
-  "sha256": "E0D464630B7C5F8F1E85F8BEC6B4636D0AEDB3AF9E2FD55269829E2E7D177838",
-  "notes": "Bổ sung x= và y= vào ghi chú tọa độ, gồm preview và mốc nhập; giữ số trong bảng tọa độ. Kèm CAD mới nhất đã lưu và VLX hiện tại."
+  "version": "1.5.1.37",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.37/TA_Tool_Update_1.5.1.37.zip",
+  "sha256": "BBABE12D998AEFDC09FABCBF249530E4C410EF0E192002D868D61997FF6EC3DF",
+  "notes": "R2L: preview toàn bộ thứ tự sau khi chọn xong các khung; thêm tùy chọn theo thứ tự chọn. Enter/Space tạo layout, Esc hủy. Kèm nút Preview thứ tự trong R2LS."
 }
