@@ -2,7 +2,20 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.37 — Preview thứ tự R2L và sắp xếp theo thứ tự chọn](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.37).
+Phiên bản chính thức hiện tại: [v1.5.1.38 — Copy/Move Layout và cập nhật link Sheet Set](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.38).
+
+Thêm **COPY_MOVE_LAYOUT**: chọn hai DWG trái/phải, chọn nhiều layout để Copy/Move hai chiều hoặc Xóa, hoàn tác và bấm Lưu khi hoàn tất. Có thông báo liên kết Sheet Set cùng ô chọn cập nhật link sang file đích; tự tạo backup DWG/DST khi lưu.
+
+Lưu và đóng hai DWG trước khi xử lý. Công cụ chuyển Paper Space, viewport và thiết lập in; viewport dùng Model của file đích. Có nút thêm DST ở thư mục khác. [Hướng dẫn COPY_MOVE_LAYOUT](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.38/HUONG_DAN_COPY_MOVE_LAYOUT.md).
+
+Đã kiểm thử 13 nhóm chức năng Copy/Move Layout và kiểm thử hồi quy trên DLL phát hành, gồm backup, khôi phục khi ghi lỗi, cập nhật/hoàn tác nhiều DST và Xref tương đối. Host kiểm thử là AutoCAD 2025; chưa chạy trực tiếp trên AutoCAD 2022–2024/2026. Giữ các tính năng của 1.5.1.37, kèm thư viện CAD mới nhất đã lưu và VLX hiện tại.
+
+[Ghi chú 1.5.1.38](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.38/RELEASE_NOTES_1.5.1.38.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.38/verification.json).
+
+## Các cập nhật trước
+
+### Phiên bản 1.5.1.37
+
 
 R2L tự hiện preview toàn bộ thứ tự sau khi chọn xong các khung và nhấn Enter. Thêm tùy chọn **Theo thứ tự chọn** và nút **Preview thứ tự** trong R2LS. Tại preview, Enter/Space tạo layout và Esc hủy; các dấu preview được xóa khi kết thúc.
 
@@ -10,7 +23,6 @@ R2L tự hiện preview toàn bộ thứ tự sau khi chọn xong các khung và
 
 [Ghi chú 1.5.1.37](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.37/RELEASE_NOTES_1.5.1.37.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.37/verification.json).
 
-## Các cập nhật trước
 
 ### Phiên bản 1.5.1.36
 
@@ -277,9 +289,9 @@ Bản 1.5.1.07 tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết p
 
 ## Cài đặt và cập nhật
 
-- **Cài mới:** [tải bộ cài 1.5.1.37](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.37/TA_Tool_Setup_1.5.1.37.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
+- **Cài mới:** [tải bộ cài 1.5.1.38](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.38/TA_Tool_Setup_1.5.1.38.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
 - **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
-- **Offline:** [tải gói cập nhật 1.5.1.37](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.37/TA_Tool_Update_1.5.1.37.zip).
+- **Offline:** [tải gói cập nhật 1.5.1.38](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.38/TA_Tool_Update_1.5.1.38.zip).
 
 Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.07 đạt 1108 kiểm tra nền trên đúng DLL tích hợp đóng gói: 861 bảng/cài đặt/MLeader/vật liệu/Excel/VX, 172 ghi chú và C2S cho ký hiệu, 2 alias ghi chú kết hợp MLEADER native, 34 C2S và 39 trường hợp AutoDim. Có 20 kiểm tra chạy cả mười tên TKA_ và UPDATE_ thực, lấy ký hiệu Model/Layout/block đã chèn và đặt bảng theo UCS. Bộ cài chọn đúng nhánh cho 2022–2026. Nguồn AutoDim giữ nguyên bản .04; thư viện CAD và các tài nguyên cập nhật khác giữ nguyên SHA-256. Form cài đặt được dựng/lưu thử ngoài màn hình. Máy kiểm tra có AutoCAD 2025; nhánh 2022–2024 đã kiểm tra biên dịch và metadata. Preview/phím/hộp thoại, bước mở MLEADER tương tác của GC và giao diện bộ cài cần kiểm trực tiếp; kiểm tra phím dùng đầu vào mô phỏng.
 

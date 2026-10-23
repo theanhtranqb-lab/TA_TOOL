@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.37",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.37/TA_Tool_Update_1.5.1.37.zip",
-  "sha256": "BBABE12D998AEFDC09FABCBF249530E4C410EF0E192002D868D61997FF6EC3DF",
-  "notes": "R2L: preview toàn bộ thứ tự sau khi chọn xong các khung; thêm tùy chọn theo thứ tự chọn. Enter/Space tạo layout, Esc hủy. Kèm nút Preview thứ tự trong R2LS."
+  "version": "1.5.1.38",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.38/TA_Tool_Update_1.5.1.38.zip",
+  "sha256": "1893502606BA4B02B8A7C72FA64C3971FC87BBADD3E3CEEED26F3154C92A5F0E",
+  "notes": "Thêm COPY_MOVE_LAYOUT: chọn hai DWG trái/phải, copy/move/xóa nhiều layout, hoàn tác và lưu có backup. Có tùy chọn cập nhật link Sheet Set sang layout ở file đích."
 }
