@@ -2,7 +2,18 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.39 — Su2Cad trong TA Tool](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.39).
+Phiên bản chính thức hiện tại: [v1.5.1.40 — VETHANG và VECATTHANG](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.40).
+
+Thêm **VETHANG** và **VECATTHANG** vào TA Tool: vẽ 7 dạng mặt bằng thang theo tham số và sinh mặt cắt từ block nguồn. Có khóa ràng buộc kích thước, chia hai vế khác số bậc, preview bằng **Space / Enter / Esc**, ba cấu tạo và ba mẫu lan can; tay nắm bật/tắt độc lập, có nhập đường kính. Cài đặt tại tab **Thang** trong TA_OPTION hoặc lệnh **TA_OPTION_THANG**.
+
+Đã kiểm tra **225 trường hợp trên DLL phát hành trong AutoCAD 2025**, cùng **861 kiểm tra lõi .NET 8** và **861 kiểm tra lõi .NET 4.8**, kiểm tra hồi quy và gói cài. Tương tác bàn phím/hộp thoại đã được thử trên AutoCAD 2025 trước khi tăng số phiên bản. Chưa thử Jig trực tiếp trên AutoCAD 2022–2024/2026. Thang tròn hiện chỉ có mặt cắt khai triển; U hỗn hợp dùng mẫu quay cố định.
+
+[Hướng dẫn VETHANG / VECATTHANG](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.40/HUONG_DAN_VETHANG_VECATTHANG.md) · [Ghi chú 1.5.1.40](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.40/RELEASE_NOTES_1.5.1.40.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.40/verification.json).
+
+## Các cập nhật trước
+
+### Phiên bản 1.5.1.39
+
 
 Thêm **Su2Cad** vào DLL chính của TA Tool cho AutoCAD 2022–2026. Sau khi xuất bộ DWG trong SketchUp bằng Furniture CAD / SU for 2D, gõ `Su2Cad` rồi chọn điểm chèn để đưa bộ hình mới nhất vào bản vẽ CAD đang mở. Giữ Dim, tỷ lệ hiện hành và hình học 1:1 mm; không tự lưu hoặc đổi Layout.
 
@@ -10,7 +21,6 @@ Thêm **Su2Cad** vào DLL chính của TA Tool cho AutoCAD 2022–2026. Sau khi 
 
 [Hướng dẫn Su2Cad](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.39/HUONG_DAN_SU2CAD.md) · [Ghi chú 1.5.1.39](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.39/RELEASE_NOTES_1.5.1.39.md) · [Báo cáo xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.39/verification.json).
 
-## Các cập nhật trước
 
 ### Phiên bản 1.5.1.38
 
@@ -299,9 +309,9 @@ Bản 1.5.1.07 tiếp tục giữ AutoDim cho block trục ZXY, DIM chi tiết p
 
 ## Cài đặt và cập nhật
 
-- **Cài mới:** [tải bộ cài 1.5.1.39](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.39/TA_Tool_Setup_1.5.1.39.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
+- **Cài mới:** [tải bộ cài 1.5.1.40](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.40/TA_Tool_Setup_1.5.1.40.zip), giải nén, đóng AutoCAD rồi chạy TA_Tool_Setup.exe.
 - **Đã cài TA Tool:** chạy `TAUPDATE`, lưu bản vẽ và đóng toàn bộ AutoCAD để cài bản mới; mở lại sau khi cập nhật.
-- **Offline:** [tải gói cập nhật 1.5.1.39](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.39/TA_Tool_Update_1.5.1.39.zip).
+- **Offline:** [tải gói cập nhật 1.5.1.40](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.40/TA_Tool_Update_1.5.1.40.zip).
 
 Hỗ trợ hai nhánh AutoCAD 2025+ (.NET 8) và 2022–2024 (.NET Framework 4.8). Bản 1.5.1.07 đạt 1108 kiểm tra nền trên đúng DLL tích hợp đóng gói: 861 bảng/cài đặt/MLeader/vật liệu/Excel/VX, 172 ghi chú và C2S cho ký hiệu, 2 alias ghi chú kết hợp MLEADER native, 34 C2S và 39 trường hợp AutoDim. Có 20 kiểm tra chạy cả mười tên TKA_ và UPDATE_ thực, lấy ký hiệu Model/Layout/block đã chèn và đặt bảng theo UCS. Bộ cài chọn đúng nhánh cho 2022–2026. Nguồn AutoDim giữ nguyên bản .04; thư viện CAD và các tài nguyên cập nhật khác giữ nguyên SHA-256. Form cài đặt được dựng/lưu thử ngoài màn hình. Máy kiểm tra có AutoCAD 2025; nhánh 2022–2024 đã kiểm tra biên dịch và metadata. Preview/phím/hộp thoại, bước mở MLEADER tương tác của GC và giao diện bộ cài cần kiểm trực tiếp; kiểm tra phím dùng đầu vào mô phỏng.
 

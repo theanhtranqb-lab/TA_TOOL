@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.39",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.39/TA_Tool_Update_1.5.1.39.zip",
-  "sha256": "5D0A33B495876B17C24C0CD65D2C2A781A4B50D931E5C61ED46CE73A79E30F1B",
-  "notes": "Thêm Su2Cad vào TA Tool: nhập bộ DWG từ SketchUp vào bản vẽ hiện hành, giữ Dim và tỷ lệ TA Tool. Hỗ trợ cả AutoCAD 2022–2024 và 2025–2026."
+  "version": "1.5.1.40",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.40/TA_Tool_Update_1.5.1.40.zip",
+  "sha256": "78C9BB6ABC141F7A17745CB682F55023711FABC22A4C1AC3067AFBB66EE3E554",
+  "notes": "Thêm VETHANG và VECATTHANG: vẽ 7 dạng thang tham số, xem trước bằng Space/Enter, tạo block và mặt cắt có cao độ, kết cấu, tay vịn/lan can."
 }
