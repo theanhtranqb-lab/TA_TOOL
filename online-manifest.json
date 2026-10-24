@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.38",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.38/TA_Tool_Update_1.5.1.38.zip",
-  "sha256": "1893502606BA4B02B8A7C72FA64C3971FC87BBADD3E3CEEED26F3154C92A5F0E",
-  "notes": "Thêm COPY_MOVE_LAYOUT: chọn hai DWG trái/phải, copy/move/xóa nhiều layout, hoàn tác và lưu có backup. Có tùy chọn cập nhật link Sheet Set sang layout ở file đích."
+  "version": "1.5.1.39",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.39/TA_Tool_Update_1.5.1.39.zip",
+  "sha256": "5D0A33B495876B17C24C0CD65D2C2A781A4B50D931E5C61ED46CE73A79E30F1B",
+  "notes": "Thêm Su2Cad vào TA Tool: nhập bộ DWG từ SketchUp vào bản vẽ hiện hành, giữ Dim và tỷ lệ TA Tool. Hỗ trợ cả AutoCAD 2022–2024 và 2025–2026."
 }
