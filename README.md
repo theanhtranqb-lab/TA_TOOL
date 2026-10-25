@@ -2,17 +2,25 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.41 — SAPXEPBANVE và mặt cắt thang](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.41).
+Phiên bản chính thức hiện tại: [v1.5.1.42 — SAPXEPBANVE chia vùng tỷ lệ nguyên](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.42).
 
-Thêm **SAPXEPBANVE / SXBV**: xếp nhóm bản vẽ theo khổ giấy và tỷ lệ CGS, so sánh phương án trong Preview rồi Move/Copy. Không scale/xoay nội dung; một U hoàn tác cả batch. Hỗ trợ giấy dọc khi có template usable riêng; thuật toán tìm phương án tốt nhất trong ngân sách chạy, chưa chứng minh tối ưu toàn cục. CGS mới được bộ cài/TAUPDATE nạp tự động qua tệp tương thích sau VLX.
+**SAPXEPBANVE / SXBV** lấy tỷ lệ đang vẽ từ **Dim hiện hành**, hỗ trợ chia vùng **1:x với x nguyên** theo cả chiều cao và chiều rộng. Trong khung 1:100, vùng 1:50 có hai cạnh bằng nửa khung; hình bên trong giữ nguyên kích thước và hướng. Preview hiển thị vùng/đường chia/tỷ lệ; Apply tạo đường thẳng ngang/dọc và một U hoàn tác toàn bộ.
 
-Sửa **VECATTHANG cục bộ**: có phần cắt và hatch chiếu nghỉ/vùng chuyển tiếp khi cắt qua hai vế; chiếu vế còn lại bằng nét thấy mảnh hoặc nét khuất theo hướng nhìn và phần bị che. Đổi A/B cập nhật hướng và hình chiếu. Vẽ lại mặt cắt cũ để áp dụng.
+Mặc định **không có khoảng hở** giữa khung hoặc trang; các vùng có thể dùng chung đường phân chia. Khổ giấy và vùng khả dụng lấy từ CGS, có template dọc độc lập. Giữ VETHANG, VECATTHANG, Su2Cad và các chức năng trước.
 
-Đã qua **3.847 kiểm tra** cho bản phát hành. Có DLL cho AutoCAD 2022–2024 và 2025–2026; host kiểm tra là AutoCAD 2025. SAPXEPBANVE nhận rectangle kín, thẳng trục WCS, z=0 trong Model; chưa benchmark trên bộ DWG sản xuất được chỉ định. Khung giấy/nhãn chưa phải block khung tên tùy biến.
+Cài mới: tải [TA_Tool_Setup_1.5.1.42.zip](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.42/TA_Tool_Setup_1.5.1.42.zip), giải nén, đóng AutoCAD và chạy TA_Tool_Setup.exe. Đang dùng TA Tool: chạy **TAUPDATE**, lưu và đóng toàn bộ AutoCAD để cập nhật.
 
-[Hướng dẫn SAPXEPBANVE](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.41/HUONG_DAN_SAPXEPBANVE.md) · [Hướng dẫn VETHANG / VECATTHANG](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.41/HUONG_DAN_VETHANG_VECATTHANG.md) · [Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.41/RELEASE_NOTES_1.5.1.41.md) · [Xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.41/verification.json).
+Bản phát hành đã qua **3.962 kiểm tra** trên DLL phát hành, cơ chế cập nhật và cấu trúc gói. Có DLL cho AutoCAD 2022–2024 và 2025–2026; host kiểm tra là AutoCAD 2025. Chỉ hỗ trợ khung chữ nhật WCS, z=0 trong Model; solver heuristic chưa chứng minh tối ưu toàn cục, chưa dựng block khung tên tùy biến hoặc benchmark trên bộ DWG sản xuất được chỉ định. Tỷ lệ vùng là tỷ lệ kích thước khung con; không đổi plot scale hoặc Dim nội dung.
+
+[Hướng dẫn SAPXEPBANVE](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.42/HUONG_DAN_SAPXEPBANVE.md) · [Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.42/RELEASE_NOTES_1.5.1.42.md) · [Xác minh gói và DLL phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.42/verification.json).
 
 ## Các cập nhật trước
+
+### Phiên bản 1.5.1.41
+
+Thêm SAPXEPBANVE/SXBV với Preview, cảnh báo oversize và Move/Copy theo CGS; sửa mặt cắt VECATTHANG cục bộ với phần cắt chiếu nghỉ, nét thấy/khuất của vế còn lại. Bản 1.5.1.42 tiếp tục giữ các chức năng này, đồng thời cập nhật nguồn tỷ lệ và chia vùng như mô tả ở trên.
+
+[Ghi chú 1.5.1.41](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.41/RELEASE_NOTES_1.5.1.41.md).
 
 ### Phiên bản 1.5.1.40
 
