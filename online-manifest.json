@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.42",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.42/TA_Tool_Update_1.5.1.42.zip",
-  "sha256": "852C39FF7D6ADEAD70AEC5FDFC02AA223331B5B2AD412E114DC1983FC387C6A8",
-  "notes": "SAPXEPBANVE lấy tỷ lệ từ Dim hiện hành; chia vùng 1:x với x nguyên, giữ nguyên hình; mặc định không có khoảng hở."
+  "version": "1.5.1.43",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.43/TA_Tool_Update_1.5.1.43.zip",
+  "sha256": "5F3FC6B3595CB4DA8B9A6F6F8FD5ECF7148B47D2878088078F38A90E4FF145B7",
+  "notes": "COPY_MOVE_LAYOUT giữ Xref Paper Space và Xclip; thêm Xref cả file nguồn vào Model đích với BASE hai file về (0,0,0)."
 }

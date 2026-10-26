@@ -2,7 +2,23 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.42 — SAPXEPBANVE chia vùng tỷ lệ nguyên](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.42).
+Phiên bản chính thức hiện tại: [v1.5.1.43 — Copy/Move Layout: giữ Xref và BASE 0](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.43).
+
+**COPY_MOVE_LAYOUT** giữ Xref trên Paper Space khi Copy/Move layout: liên kết file gốc, Attach/Overlay, vị trí, tỷ lệ, góc xoay và Xclip.
+
+Thêm tùy chọn **Xref toàn bộ file nguồn vào Model đích (BASE cả hai file = 0,0,0)**, mặc định tắt. Bật trước thao tác cần dùng; khi Lưu, công cụ đặt BASE/INSBASE hai DWG về gốc và chèn Xref nguồn tại (0,0,0), tỷ lệ 1, góc xoay 0. Giữ tọa độ hình học hiện có, liên kết DWG gốc, Hoàn tác và backup cả hai file; tránh chèn lặp và chặn tham chiếu vòng.
+
+Cài mới: tải [TA_Tool_Setup_1.5.1.43.zip](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.43/TA_Tool_Setup_1.5.1.43.zip), giải nén, đóng AutoCAD và chạy TA_Tool_Setup.exe. Đang dùng TA Tool: chạy **TAUPDATE**, lưu và đóng toàn bộ AutoCAD để cập nhật.
+
+23 nhóm kiểm thử Copy/Move Layout chạy trên DLL phát hành, kèm kiểm thử hồi quy, gói cài và cập nhật. Runtime được kiểm thử trong AutoCAD 2025; bản 2022–2024/2026 có DLL tương thích nhưng chưa chạy host. Xref cả DWG hiển thị Model nguồn; layout giấy được chuyển riêng.
+
+Giữ SAPXEPBANVE, VETHANG, VECATTHANG, Su2Cad và các tính năng đã có.
+
+[Hướng dẫn COPY_MOVE_LAYOUT](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.43/HUONG_DAN_COPY_MOVE_LAYOUT.md) · [Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.43/RELEASE_NOTES_1.5.1.43.md) · [Xác minh gói và DLL phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.43/verification.json).
+
+## Các cập nhật trước
+
+### Phiên bản 1.5.1.42
 
 **SAPXEPBANVE / SXBV** lấy tỷ lệ đang vẽ từ **Dim hiện hành**, hỗ trợ chia vùng **1:x với x nguyên** theo cả chiều cao và chiều rộng. Trong khung 1:100, vùng 1:50 có hai cạnh bằng nửa khung; hình bên trong giữ nguyên kích thước và hướng. Preview hiển thị vùng/đường chia/tỷ lệ; Apply tạo đường thẳng ngang/dọc và một U hoàn tác toàn bộ.
 
@@ -14,7 +30,7 @@ Bản phát hành đã qua **3.962 kiểm tra** trên DLL phát hành, cơ chế
 
 [Hướng dẫn SAPXEPBANVE](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.42/HUONG_DAN_SAPXEPBANVE.md) · [Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.42/RELEASE_NOTES_1.5.1.42.md) · [Xác minh gói và DLL phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.42/verification.json).
 
-## Các cập nhật trước
+
 
 ### Phiên bản 1.5.1.41
 
