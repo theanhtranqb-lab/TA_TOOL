@@ -2,7 +2,19 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.43 — Copy/Move Layout: giữ Xref và BASE 0](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.43).
+Phiên bản chính thức hiện tại: [v1.5.1.44 — Khóa lệnh theo hạn key bản quyền](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.44).
+
+Sửa VX, V1, V2…V500 ngừng chạy từ 30/10/2026. Bỏ mốc ngày cố định trong nhóm VX và cơ chế dùng thử C#; các lệnh C# phát hành kiểm tra key bản quyền trước khi chạy. Key đúng máy, hợp lệ được dùng đến hết ngày hết hạn ghi trong key. Key hết hạn, sai máy, sai chữ ký hoặc thiếu key sẽ khóa lệnh và báo lý do. DANGKY, NHAPKEY, CHECKLICENSE, TA_INFO và TAUPDATE vẫn mở để kích hoạt và cập nhật.
+
+Cài mới: tải [TA_Tool_Setup_1.5.1.44.zip](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.44/TA_Tool_Setup_1.5.1.44.zip), giải nén, đóng AutoCAD và chạy TA_Tool_Setup.exe. Đang dùng TA Tool: chạy **TAUPDATE**, lưu và đóng toàn bộ AutoCAD để cập nhật.
+
+Đạt 287 kiểm tra trên DLL phát hành trong AutoCAD 2025; biên dịch thành công các nhánh 2022–2024 và 2025+, bộ cài và kiểm tra mã băm gói cập nhật. Chưa chạy host AutoCAD 2022–2024 hoặc thử các hộp thoại tương tác.
+
+[Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.44/RELEASE_NOTES_1.5.1.44.md) · [Xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.44/verification.json).
+
+## Các cập nhật trước
+
+### Phiên bản 1.5.1.43
 
 **COPY_MOVE_LAYOUT** giữ Xref trên Paper Space khi Copy/Move layout: liên kết file gốc, Attach/Overlay, vị trí, tỷ lệ, góc xoay và Xclip.
 
@@ -16,7 +28,7 @@ Giữ SAPXEPBANVE, VETHANG, VECATTHANG, Su2Cad và các tính năng đã có.
 
 [Hướng dẫn COPY_MOVE_LAYOUT](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.43/HUONG_DAN_COPY_MOVE_LAYOUT.md) · [Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.43/RELEASE_NOTES_1.5.1.43.md) · [Xác minh gói và DLL phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.43/verification.json).
 
-## Các cập nhật trước
+
 
 ### Phiên bản 1.5.1.42
 

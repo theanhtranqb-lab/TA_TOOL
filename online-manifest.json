@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.43",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.43/TA_Tool_Update_1.5.1.43.zip",
-  "sha256": "5F3FC6B3595CB4DA8B9A6F6F8FD5ECF7148B47D2878088078F38A90E4FF145B7",
-  "notes": "COPY_MOVE_LAYOUT giữ Xref Paper Space và Xclip; thêm Xref cả file nguồn vào Model đích với BASE hai file về (0,0,0)."
+  "version": "1.5.1.44",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.44/TA_Tool_Update_1.5.1.44.zip",
+  "sha256": "2726BB4E808E4A3D22B9CF971A6647F3F656413B51E8A9727BDB48FFB8943D34",
+  "notes": "Thống nhất khóa lệnh theo hạn key bản quyền; bỏ giới hạn ngày cố định của VX và cơ chế dùng thử C#."
 }
