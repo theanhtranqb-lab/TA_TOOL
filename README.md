@@ -2,7 +2,19 @@
 
 CÔNG CỤ CAD — TA Tool.
 
-Phiên bản chính thức hiện tại: [v1.5.1.44 — Khóa lệnh theo hạn key bản quyền](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.44).
+Phiên bản chính thức hiện tại: [v1.5.1.45 — Cre_Subset](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.45).
+
+Lệnh **Cre_Subset** mở hộp thoại chọn Sheet Set (.dst) và Excel, chọn worksheet/cột tên, hiển thị danh sách để thêm, sửa, xóa trước khi tạo Subset. Tạo Subset cấp gốc theo thứ tự trong bảng; bỏ dòng trống, gộp tên trùng, bỏ qua tên đã có. Giữ tiếng Việt và định dạng số như 001. Tự sao lưu DST trước khi ghi, giữ Subset và sheet hiện có. Cần cài Microsoft Excel; Excel mở chỉ đọc và tắt macro.
+
+Cài mới: tải [TA_Tool_Setup_1.5.1.45.zip](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.45/TA_Tool_Setup_1.5.1.45.zip), giải nén, đóng AutoCAD và chạy TA_Tool_Setup.exe. Đang dùng TA Tool: chạy **TAUPDATE**, lưu và đóng AutoCAD để cập nhật. Khởi động lại rồi gõ **Cre_Subset**.
+
+Đạt 23 kiểm tra trên DLL phát hành trong AutoCAD 2025, gồm đọc Excel, tạo Subset và lưu DST. Build nhánh 2022–2024 và 2025+ thành công; kiểm tra mã băm các tệp trong gói cài/cập nhật đạt. Bản 2022–2024 chưa chạy trên host tương ứng.
+
+[Hướng dẫn Cre_Subset](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.45/HUONG_DAN_CRE_SUBSET.md) · [Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.45/RELEASE_NOTES_1.5.1.45.md) · [Xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.45/verification.json).
+
+## Các cập nhật trước
+
+### Phiên bản 1.5.1.44
 
 Sửa VX, V1, V2…V500 ngừng chạy từ 30/10/2026. Bỏ mốc ngày cố định trong nhóm VX và cơ chế dùng thử C#; các lệnh C# phát hành kiểm tra key bản quyền trước khi chạy. Key đúng máy, hợp lệ được dùng đến hết ngày hết hạn ghi trong key. Key hết hạn, sai máy, sai chữ ký hoặc thiếu key sẽ khóa lệnh và báo lý do. DANGKY, NHAPKEY, CHECKLICENSE, TA_INFO và TAUPDATE vẫn mở để kích hoạt và cập nhật.
 
@@ -12,7 +24,7 @@ Cài mới: tải [TA_Tool_Setup_1.5.1.44.zip](https://github.com/theanhtranqb-l
 
 [Ghi chú phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.44/RELEASE_NOTES_1.5.1.44.md) · [Xác minh](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.44/verification.json).
 
-## Các cập nhật trước
+
 
 ### Phiên bản 1.5.1.43
 
@@ -381,3 +393,4 @@ Module tạo bảng thuyết minh các lớp vật liệu, không sinh hình h�
 Hai runtime có 22 kiểm tra domain/repository/layout PASS mỗi runtime; AutoCAD 2025 Core Console có 25 assert module và 12 assert DLL tích hợp/production updater PASS. Giao diện tương tác, plot, dynamic/viewport và host 2022–2024 chưa nghiệm thu đầy đủ; xem release notes/báo cáo trong gói tài liệu.
 
 [Thông tin các bản phát hành](https://github.com/theanhtranqb-lab/TA_TOOL/releases).
+
