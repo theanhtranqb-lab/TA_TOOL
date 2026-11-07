@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.50",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.50/TA_Tool_Update_1.5.1.50.zip",
-  "sha256": "268B069F835C0B695DD5D5C7420B83B1A986F6A953A2BF023F37126B4FF96FD1",
-  "notes": "Giao diện TAOPTION và hộp thoại theo mẫu được duyệt; nút lưu nhóm đổi thành Lưu."
+  "version": "1.5.1.51",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.51/TA_Tool_Update_1.5.1.51.zip",
+  "sha256": "CE50C24A68661C0083A5A80AC9905CADE980B62F34A412EE8C44442E8001DEB7",
+  "notes": "Tối ưu TAOPTION và theme; Lưu đóng TAOPTION; bỏ Enter dư khi nạp lệnh tắt lúc chuyển bản vẽ."
 }
