@@ -1,3 +1,13 @@
+# TA Tool — Phiên bản 1.5.1.47
+
+Sửa bảng giữa TAOption đúng thiết kế: **chữ trắng, nền graphite tối**, hàng chọn đỏ trầm; đồng bộ cả hàng xen kẽ, tiêu đề và ô chỉnh sửa. Giữ màu khi lọc nhóm hoặc mở lại trang, không đổi dữ liệu hay 268 lệnh/alias.
+
+[Tải bộ cài 1.5.1.47](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.47/TA_Tool_Setup_1.5.1.47.zip) · [Gói cập nhật CAD](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.47/TA_Tool_Update_1.5.1.47.zip) · [Ghi chú và kiểm thử](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.47)
+
+Đạt 38 kiểm tra theme trong AutoCAD 2025 cho Lệnh tắt/Hatch/Block/Layer, gồm ô sửa, lọc nhóm, tạo lại trang và giữ nguyên tệp cấu hình. Có build net48/net8; chưa kiểm đủ host CAD khác và DPI nhiều màn hình. Dùng TAUPDATE để nhận bản sửa CAD hoặc giải nén toàn bộ bộ cài để cài mới; mở lại AutoCAD sau cập nhật.
+
+---
+
 # TA Tool — Phiên bản 1.5.1.46
 
 Giao diện Red / Black / Gold mới cho **trình cài đặt, TA Manager và TAOption**: màn hình chào, trang tổng quan, tìm nhóm thiết lập và phần chi tiết Layer. Giữ 268 lệnh/alias của bản trước.
