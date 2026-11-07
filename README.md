@@ -1,4 +1,6 @@
-# TA Tool — Phiên bản 1.5.1.52
+# TA Tool — Phiên bản 1.5.1.53
+
+**TA_info theo thiết kế đã duyệt**: hai mục Bản quyền / Nhắn tin tác giả; phiên bản nằm ở dòng nhỏ trong Bản quyền; giao diện và hộp gửi mã máy đồng bộ TA_Tool_Setup. Giữ các bản vá của1.5.1.52. [Ghi chú bản1.5.1.53 và phạm vi kiểm chứng](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.53).
 
 **Vá lỗi kẹt Loading của bản 1.5.1.51** bằng bộ nạp lệnh tắt qua tệp LSP tạm. Giữ tối ưu giao diện và hành vi **Lưu đóng TAOPTION**. [Ghi chú bản 1.5.1.52 và phạm vi kiểm chứng](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.52).
 
@@ -11,7 +13,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$env:TEMP\Install-TA.ps
 
 Đổi năm thành 2022/2023/2024/2025/2026. Script tự lấy Setup stable, kiểm tra SHA-256, giải nén và cài theo người dùng hiện tại. Thêm `-CheckOnly` để chỉ kiểm tra. Key bản quyền được kích hoạt riêng.
 
-[Tải bộ cài](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.52/TA_Tool_Setup_1.5.1.52.zip) · [Hướng dẫn PowerShell và mã lỗi](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.48/HUONG_DAN_POWERSHELL.md) · [Ghi chú và phạm vi kiểm thử](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.48)
+[Tải bộ cài](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.53/TA_Tool_Setup_1.5.1.53.zip) · [Hướng dẫn PowerShell và mã lỗi](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.48/HUONG_DAN_POWERSHELL.md) · [Ghi chú và phạm vi kiểm thử](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.48)
 
 29 kiểm tra CLI/cài/rollback trên fixture đạt. CLI và Windows PowerShell 5.1 trên máy thật chặn đúng khi AutoCAD đang mở. Chưa cài thật vào bundle/Registry đang dùng trong đợt kiểm thử này. Giữ 268 lệnh/alias và giao diện tối của bản trước.
 

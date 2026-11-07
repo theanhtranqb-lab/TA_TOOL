@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.52",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.52/TA_Tool_Update_1.5.1.52.zip",
-  "sha256": "10AE52BCA9AFC2A23B38735773DCC567F0ECE2339A29A7CFA5B38D7E40A61959",
-  "notes": "Vá lỗi CAD kẹt Loading của 1.5.1.51: nạp alias qua tệp LSP tạm, hàng lệnh ngắn; giữ tối ưu giao diện và Lưu đóng TAOPTION."
+  "version": "1.5.1.53",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.53/TA_Tool_Update_1.5.1.53.zip",
+  "sha256": "9F4C4EBA854E2174FB4CAD56E6F6BBFAFA7A05E639F804073E95EF9D8A7FA80F",
+  "notes": "TA_info theo thiết kế được duyệt: hai mục, phiên bản nhỏ trong Bản quyền, giao diện chung theo TA_Tool_Setup. Giữ bản vá nạp lệnh 1.5.1.52."
 }
