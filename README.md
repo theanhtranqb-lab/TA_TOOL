@@ -1,6 +1,8 @@
-# TA Tool — Phiên bản 1.5.1.54
+# TA Tool — Phiên bản 1.5.1.55
 
-**Sửa giao diện DTS bị khuất nút**: giữ đủ15 chức năng chính,9 nút sửa trực tiếp; Lưu/Hủy cố định, bố cục co giãn theo mẫu TA_info. [Ghi chú bản1.5.1.54 và kiểm chứng](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.54).
+**Gộp bản sửa DTS và TA2/TA3 phóng đại chữ trong block.** Giữ nguyên chiều cao chữ, thuộc tính trong block và tỷ lệ chèn.
+
+**Sửa giao diện DTS bị khuất nút**: giữ đủ15 chức năng chính,9 nút sửa trực tiếp; Lưu/Hủy cố định, bố cục co giãn theo mẫu TA_info. [Ghi chú bản1.5.1.55 và kiểm chứng](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.55).
 
 **TA_info theo thiết kế đã duyệt**: hai mục Bản quyền / Nhắn tin tác giả; phiên bản nằm ở dòng nhỏ trong Bản quyền; giao diện và hộp gửi mã máy đồng bộ TA_Tool_Setup. Giữ các bản vá của1.5.1.52. [Ghi chú bản1.5.1.53 và phạm vi kiểm chứng](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.53).
 
@@ -15,7 +17,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$env:TEMP\Install-TA.ps
 
 Đổi năm thành 2022/2023/2024/2025/2026. Script tự lấy Setup stable, kiểm tra SHA-256, giải nén và cài theo người dùng hiện tại. Thêm `-CheckOnly` để chỉ kiểm tra. Key bản quyền được kích hoạt riêng.
 
-[Tải bộ cài](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.54/TA_Tool_Setup_1.5.1.54.zip) · [Hướng dẫn PowerShell và mã lỗi](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.48/HUONG_DAN_POWERSHELL.md) · [Ghi chú và phạm vi kiểm thử](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.48)
+[Tải bộ cài](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.55/TA_Tool_Setup_1.5.1.55.zip) · [Hướng dẫn PowerShell và mã lỗi](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.48/HUONG_DAN_POWERSHELL.md) · [Ghi chú và phạm vi kiểm thử](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.48)
 
 29 kiểm tra CLI/cài/rollback trên fixture đạt. CLI và Windows PowerShell 5.1 trên máy thật chặn đúng khi AutoCAD đang mở. Chưa cài thật vào bundle/Registry đang dùng trong đợt kiểm thử này. Giữ 268 lệnh/alias và giao diện tối của bản trước.
 

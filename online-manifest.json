@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.54",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.54/TA_Tool_Update_1.5.1.54.zip",
-  "sha256": "85DA7A2E62CC88144CBF00217C3C1F790F5A08C1CC9C875A4D226E779C15AC40",
-  "notes": "Sửa DTS bị khuất nút: bố cục co giãn theo mẫu TA_info, đủ15 chức năng chính,9 nút editor phụ, Lưu/Hủy cố định."
+  "version": "1.5.1.55",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.55/TA_Tool_Update_1.5.1.55.zip",
+  "sha256": "CB889B645AE4D8F32AA358F1CCD5DC62B0FD4FFC684FAC0DDDFFCD8047FA1C1B",
+  "notes": "Gồm bản sửa giao diện DTS 1.5.1.54 và sửa TA2/TA3 làm phóng đại chữ trong block; giữ chiều cao chữ và thuộc tính theo tỷ lệ block."
 }
