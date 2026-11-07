@@ -8,6 +8,7 @@ param(
     [switch]$CheckOnly
 )
 $ErrorActionPreference = 'Stop'
+$ProgressPreference = 'SilentlyContinue'
 $repo = 'theanhtranqb-lab/TA_TOOL'
 $minimum = [version]'1.5.1.48'
 try {
@@ -35,7 +36,11 @@ try {
         $archivePath = Join-Path $downloadRoot $name
         Write-Host "Dang tai $name..."
         Invoke-WebRequest -UseBasicParsing -Uri $downloadUrl -OutFile $archivePath -TimeoutSec 600
-        if ((Get-FileHash -LiteralPath $archivePath -Algorithm SHA256).Hash -ne $expectedHash) { throw 'SHA-256 khong khop. Khong giai nen hoac chay bo cai.' }
+        $hashAlgorithm = [Security.Cryptography.SHA256]::Create()
+        $archiveStream = [IO.File]::OpenRead($archivePath)
+        try { $actualHash = [BitConverter]::ToString($hashAlgorithm.ComputeHash($archiveStream)).Replace('-','') }
+        finally { $archiveStream.Dispose(); $hashAlgorithm.Dispose() }
+        if ($actualHash -ne $expectedHash) { throw 'SHA-256 khong khop. Khong giai nen hoac chay bo cai.' }
         Add-Type -AssemblyName System.IO.Compression.FileSystem
         $zip = [IO.Compression.ZipFile]::OpenRead($archivePath)
         try {
@@ -48,7 +53,7 @@ try {
                 if ($expandedBytes -gt 1GB) { throw 'Goi ZIP giai nen vuot gioi han 1 GB.' }
             }
         } finally { $zip.Dispose() }
-        Expand-Archive -LiteralPath $archivePath -DestinationPath $downloadRoot
+        [IO.Compression.ZipFile]::ExtractToDirectory($archivePath, $downloadRoot)
         $SetupDirectory = Join-Path $downloadRoot "TA_Tool_Setup_$resolvedVersion"
         Write-Host 'SHA-256 hop le. Da giai nen bo cai.'
     }
