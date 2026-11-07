@@ -1,3 +1,21 @@
+# TA Tool — Phiên bản 1.5.1.48
+
+**Tự tải và cài TA Tool bằng PowerShell**, không mở giao diện bộ cài. Đóng AutoCAD trước khi chạy:
+
+```powershell
+Invoke-WebRequest -UseBasicParsing 'https://raw.githubusercontent.com/theanhtranqb-lab/TA_TOOL/main/Install-TA.ps1' -OutFile "$env:TEMP\Install-TA.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$env:TEMP\Install-TA.ps1" -AutoCADYear 2025
+```
+
+Đổi năm thành 2022/2023/2024/2025/2026. Script tự lấy Setup stable, kiểm tra SHA-256, giải nén và cài theo người dùng hiện tại. Thêm `-CheckOnly` để chỉ kiểm tra. Key bản quyền được kích hoạt riêng.
+
+[Tải bộ cài](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.48/TA_Tool_Setup_1.5.1.48.zip) · [Hướng dẫn PowerShell và mã lỗi](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.48/HUONG_DAN_POWERSHELL.md) · [Ghi chú và phạm vi kiểm thử](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.48)
+
+29 kiểm tra CLI/cài/rollback trên fixture đạt. CLI và Windows PowerShell 5.1 trên máy thật chặn đúng khi AutoCAD đang mở. Chưa cài thật vào bundle/Registry đang dùng trong đợt kiểm thử này. Giữ 268 lệnh/alias và giao diện tối của bản trước.
+
+---
+
+
 # TA Tool — Phiên bản 1.5.1.47
 
 Sửa bảng giữa TAOption đúng thiết kế: **chữ trắng, nền graphite tối**, hàng chọn đỏ trầm; đồng bộ cả hàng xen kẽ, tiêu đề và ô chỉnh sửa. Giữ màu khi lọc nhóm hoặc mở lại trang, không đổi dữ liệu hay 268 lệnh/alias.

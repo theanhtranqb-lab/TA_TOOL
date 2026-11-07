@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.47",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.47/TA_Tool_Update_1.5.1.47.zip",
-  "sha256": "0B4D3F24DCC66A089C8E1296AEE425DF679F6017CB139A134FF486CAC9010507",
-  "notes": "Sửa bảng TAOption đúng theme: chữ trắng, nền graphite tối, hàng xen kẽ tối và vùng chọn đỏ trầm; đồng bộ cả khi lọc, chỉnh sửa và tạo lại trang."
+  "version": "1.5.1.48",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.48/TA_Tool_Update_1.5.1.48.zip",
+  "sha256": "257A000E2CCA4F7D17717B16399ABB28FC6F4D8E49F3C80F8D6754A688D4E0BA",
+  "notes": "Thêm tự tải và cài không giao diện qua PowerShell; kiểm tra trước, nhật ký JSON và mã kết quả."
 }
