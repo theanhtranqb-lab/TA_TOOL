@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.48",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.48/TA_Tool_Update_1.5.1.48.zip",
-  "sha256": "257A000E2CCA4F7D17717B16399ABB28FC6F4D8E49F3C80F8D6754A688D4E0BA",
-  "notes": "Thêm tự tải và cài không giao diện qua PowerShell; kiểm tra trước, nhật ký JSON và mã kết quả."
+  "version": "1.5.1.50",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.50/TA_Tool_Update_1.5.1.50.zip",
+  "sha256": "268B069F835C0B695DD5D5C7420B83B1A986F6A953A2BF023F37126B4FF96FD1",
+  "notes": "Giao diện TAOPTION và hộp thoại theo mẫu được duyệt; nút lưu nhóm đổi thành Lưu."
 }
