@@ -1,3 +1,15 @@
+# TA Tool — Phiên bản 1.5.1.46
+
+Giao diện Red / Black / Gold mới cho **trình cài đặt, TA Manager và TAOption**: màn hình chào, trang tổng quan, tìm nhóm thiết lập và phần chi tiết Layer. Giữ 268 lệnh/alias của bản trước.
+
+[Tải bộ cài 1.5.1.46](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.46/TA_Tool_Setup_1.5.1.46.zip) · [Gói cập nhật CAD](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.46/TA_Tool_Update_1.5.1.46.zip) · [Ghi chú và giới hạn kiểm thử](https://github.com/theanhtranqb-lab/TA_TOOL/releases/tag/v1.5.1.46)
+
+Giải nén toàn bộ bộ cài rồi chạy `TA_Tool_Setup.exe`; mở thẳng Manager bằng `TA_Manager.cmd`. Gói cập nhật CAD không thay EXE Manager ngoài bundle: để dùng Manager mới, tải bộ cài mới.
+
+Đã build net48/net8, chạy 13 kiểm tra UI trong AutoCAD 2025 và kiểm tra hash gói. Chưa kiểm thử host các phiên bản CAD khác, DPI nhiều màn hình và cài/gỡ trên máy sạch; theme sáng chưa nằm trong đợt này.
+
+---
+
 # TA_TOOL
 
 CÔNG CỤ CAD — TA Tool.

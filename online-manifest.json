@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.45",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.45/TA_Tool_Update_1.5.1.45.zip",
-  "sha256": "E07B4DB6B12FCD4A442314E036BC75B70E3B3E188C55F9F8144694E18F250D19",
-  "notes": "Thêm Cre_Subset: chọn DST và Excel, chỉnh danh sách và tạo Subset theo thứ tự, bỏ trùng và sao lưu DST."
+  "version": "1.5.1.46",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.46/TA_Tool_Update_1.5.1.46.zip",
+  "sha256": "26667BBB40A60352827918DAD1A404064F4E6D5313A33541ABA9F14DD8857F09",
+  "notes": "Giao diện Red/Black/Gold: màn hình chào cài đặt, tổng quan TA Manager, điều hướng tìm kiếm TAOption và chi tiết Layer. Giữ nguyên 268 lệnh/alias."
 }
