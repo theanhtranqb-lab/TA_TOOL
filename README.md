@@ -1,8 +1,8 @@
-# TA Tool — Phiên bản 1.5.1.57
+# TA Tool — Phiên bản 1.5.1.58
 
 Cập nhật và cải thiện độ ổn định TA Tool.
 
-[Tải bộ cài](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.57/TA_Tool_Setup_1.5.1.57.zip) · [Gói cập nhật](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.57/TA_Tool_Update_1.5.1.57.zip)
+[Tải bộ cài](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.58/TA_Tool_Setup_1.5.1.58.zip) · [Gói cập nhật](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.58/TA_Tool_Update_1.5.1.58.zip)
 
 Cài đặt bằng PowerShell (đóng AutoCAD trước khi chạy):
 
