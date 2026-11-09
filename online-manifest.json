@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.56",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.56/TA_Tool_Update_1.5.1.56.zip",
-  "sha256": "3D1EE696B8DBEB36DE789F4B9C484FD17E0DBBB3979E722B525E46EDA8663CB5",
+  "version": "1.5.1.57",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.57/TA_Tool_Update_1.5.1.57.zip",
+  "sha256": "2AC80428428FAFF9461FEFF2BE26B2D3C0793D78600B2951ABEE93B8AB3EEEF7",
   "notes": "Cập nhật và cải thiện độ ổn định TA Tool."
 }
