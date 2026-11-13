@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.5.1.58",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.5.1.58/TA_Tool_Update_1.5.1.58.zip",
-  "sha256": "510539D3919A664612D7A661CBA4D9DE3CB53B2EFCBCDD0527317EEB77E6178D",
-  "notes": "Cập nhật và cải thiện độ ổn định TA Tool."
+  "version": "1.6.1",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.1/TA_Tool_Update_1.6.1.zip",
+  "sha256": "5534444CBDD5DC6CB2B063CC926CDC5B3F5DEDB7DA23B295403BF09EDD8EF20C",
+  "notes": "Cải thiện hiệu năng kiểm tra bản quyền; chuyển sang key TA161 và bảo vệ thư viện CAD. Cần key mới."
 }

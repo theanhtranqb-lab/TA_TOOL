@@ -13,7 +13,7 @@ $repo = 'theanhtranqb-lab/TA_TOOL'
 $minimum = [version]'1.5.1.48'
 try {
     if ([string]::IsNullOrWhiteSpace($AutoCADYear)) { throw 'Can -AutoCADYear 2022, 2023, 2024, 2025 hoac 2026. Khong tu dong chon phien ban.' }
-    if ($Version -and $Version -notmatch '^\d+\.\d+\.\d+\.\d+$') { throw 'Version khong hop le.' }
+    if ($Version -and $Version -notmatch '^\d+\.\d+\.\d+(\.\d+)?$') { throw 'Version khong hop le.' }
     if (!$SetupDirectory) {
         [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
         $headers = @{ 'User-Agent' = 'TA-Tool-PowerShell-Installer'; 'Accept' = 'application/vnd.github+json' }
