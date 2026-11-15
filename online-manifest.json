@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.6.1",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.1/TA_Tool_Update_1.6.1.zip",
-  "sha256": "5534444CBDD5DC6CB2B063CC926CDC5B3F5DEDB7DA23B295403BF09EDD8EF20C",
-  "notes": "Cải thiện hiệu năng kiểm tra bản quyền; chuyển sang key TA161 và bảo vệ thư viện CAD. Cần key mới."
+  "version": "1.6.2",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.2/TA_Tool_Update_1.6.2.zip",
+  "sha256": "0017B02DCFAC15874DD3B19110B5281BC4CD30542C6A840A6C1DBF39DB50CE1B",
+  "notes": "TAOPTION: nhiều hệ layer, chọn hệ chính, lấy từ DWG và lưu/nạp JSON. Chỉ kèm thư viện V2."
 }

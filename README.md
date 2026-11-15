@@ -1,14 +1,9 @@
-# TA Tool — 1.6.1
+# TA Tool — 1.6.2
 
-Cải thiện hiệu năng kiểm tra bản quyền, chuyển sang key ký số TA161 và bảo vệ thư viện CAD.
+TAOPTION quản lý nhiều hệ layer, chọn hệ chính, lấy layer từ bản vẽ/file DWG và lưu/nạp JSON. Setup/Update chỉ kèm TA_tool_V2.dwg.
 
-[Bộ cài 1.6.1](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.1/TA_Tool_Setup_1.6.1.zip) · [Gói cập nhật 1.6.1](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.1/TA_Tool_Update_1.6.1.zip)
+[Bộ cài 1.6.2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.2/TA_Tool_Setup_1.6.2.zip) · [Gói cập nhật 1.6.2](https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.2/TA_Tool_Update_1.6.2.zip) · [Hướng dẫn hệ layer](TAOPTION_LAYER_SYSTEMS.md)
 
-Từ 1.6.1 cần key mới TA161; toàn bộ key cũ bị từ chối. Mở TA_INFO / NHAPKEY để nhập key. Hai DWG thư viện được bảo vệ; dùng TV/IB và cần Internet lần đầu mở với key mới.
+Hỗ trợ các target AutoCAD 2022–2026; bản này đã chạy runtime AutoCAD 2025. Tiếp tục dùng key TA161; mở TA_INFO / NHAPKEY để nhập key, CHECKLICENSE để đồng bộ. Thư viện V2 được bảo vệ và cần Internet lần đầu mở với key hợp lệ.
 
-Hỗ trợ AutoCAD 2022–2026. Đóng AutoCAD trước khi cài:
-
-```powershell
-Invoke-WebRequest -UseBasicParsing 'https://raw.githubusercontent.com/theanhtranqb-lab/TA_TOOL/main/Install-TA.ps1' -OutFile "$env:TEMP\Install-TA.ps1"
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$env:TEMP\Install-TA.ps1" -AutoCADYear 2025
-```
+Đóng AutoCAD trước khi cài. Có thể dùng Install-TA.ps1 hoặc bộ cài trong ZIP. Xem RELEASE_NOTES_1.6.2.md và verification.json trong release để biết phạm vi kiểm chứng và cách quay lại 1.6.1.
