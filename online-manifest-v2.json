@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.6.3",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.3/TA_Tool_Update_1.6.3.zip",
-  "sha256": "B4FE60096DC2A51235B6505EA719F72B15EF760E7541A7BDE61B8C8E534415E2",
-  "notes": "TA Tool 1.6.3 chinh thuc: DLL hop nhat, LISP bien dich; can chay Setup mot lan tu 1.6.2."
+  "version": "1.6.3.1",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.3.1/TA_Tool_Update_1.6.3.1.zip",
+  "sha256": "06170BAC6C6D06D2792403EF1F6239F386C87DD7B907F4048777225E2E37FBE2",
+  "notes": "TA Tool 1.6.3.1: cap nhat thu vien CAD luu ngay 16/11/2026; giu nguyen chuc nang va bo nap cua 1.6.3."
 }
