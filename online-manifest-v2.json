@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.6.3.1",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.3.1/TA_Tool_Update_1.6.3.1.zip",
-  "sha256": "06170BAC6C6D06D2792403EF1F6239F386C87DD7B907F4048777225E2E37FBE2",
-  "notes": "TA Tool 1.6.3.1: cap nhat thu vien CAD luu ngay 16/11/2026; giu nguyen chuc nang va bo nap cua 1.6.3."
+  "version": "1.6.3.2",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.3.2/TA_Tool_Update_1.6.3.2.zip",
+  "sha256": "894C8F6C28671DE8D1E48E292CA4089730853B0B9F44270BDD8AC783CE54DC8D",
+  "notes": "C2M/CADTOMAX tích hợp trong TA_tool.dll; xuất BSC sang DWG cho ứng dụng Max GUI/MZP."
 }
