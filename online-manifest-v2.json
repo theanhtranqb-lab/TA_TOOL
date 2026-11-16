@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "product": "TA-TOOL-V1",
+  "version": "1.6.3",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.3/TA_Tool_Update_1.6.3.zip",
+  "sha256": "B4FE60096DC2A51235B6505EA719F72B15EF760E7541A7BDE61B8C8E534415E2",
+  "notes": "Ban thu nghiem DLL hop nhat va LISP bien dich; can cai Setup 1.6.3 mot lan."
+}
