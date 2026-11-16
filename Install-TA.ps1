@@ -20,7 +20,7 @@ try {
         $endpoint = if ($Version) { "https://api.github.com/repos/$repo/releases/tags/v$Version" } else { "https://api.github.com/repos/$repo/releases/latest" }
         Write-Host 'Dang doc ban phat hanh TA Tool...'
         $release = Invoke-RestMethod -Uri $endpoint -Headers $headers -TimeoutSec 60
-        if ($release.draft -or $release.prerelease -or $release.tag_name -notmatch '^v(\d+\.\d+\.\d+\.\d+)$') { throw 'Ban phat hanh khong phai ban on dinh hop le.' }
+        if ($release.draft -or $release.prerelease -or $release.tag_name -notmatch '^v(\d+\.\d+\.\d+(?:\.\d+)?)$') { throw 'Ban phat hanh khong phai ban on dinh hop le.' }
         $resolvedVersion = $Matches[1]
         if ([version]$resolvedVersion -lt $minimum) { throw 'Ban nay chua ho tro cai dat dong lenh. Can TA Tool 1.5.1.48 tro len.' }
         $name = "TA_Tool_Setup_$resolvedVersion.zip"
