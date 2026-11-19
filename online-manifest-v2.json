@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.6.3.2",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.3.2/TA_Tool_Update_1.6.3.2.zip",
-  "sha256": "894C8F6C28671DE8D1E48E292CA4089730853B0B9F44270BDD8AC783CE54DC8D",
-  "notes": "C2M/CADTOMAX tích hợp trong TA_tool.dll; xuất BSC sang DWG cho ứng dụng Max GUI/MZP."
+  "version": "1.6.3.3",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.3.3/TA_Tool_Update_1.6.3.3.zip",
+  "sha256": "114B3F936500CF0361041AD1A9DD295139D969C057E86091DC81ACE68323B5A2",
+  "notes": "R2LS giữ giao diện hiện tại, bố cục 35/65, Block/Xref ẩn hiện và giữ giá trị, lưu/nạp đầy đủ preset sau khi mở lại CAD; Lưu đóng TAOPTION."
 }
