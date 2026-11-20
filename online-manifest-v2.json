@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.6.3.3",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.3.3/TA_Tool_Update_1.6.3.3.zip",
-  "sha256": "114B3F936500CF0361041AD1A9DD295139D969C057E86091DC81ACE68323B5A2",
-  "notes": "R2LS giữ giao diện hiện tại, bố cục 35/65, Block/Xref ẩn hiện và giữ giá trị, lưu/nạp đầy đủ preset sau khi mở lại CAD; Lưu đóng TAOPTION."
+  "version": "1.6.3.4",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.3.4/TA_Tool_Update_1.6.3.4.zip",
+  "sha256": "91CE6891257A91D4DF9738C87B411AAEF52F3AA7D71E406D805DA2F6F2B5D260",
+  "notes": "Hatch startup defaults: HPLAYER uses current layer and HPCOLOR is BYLAYER."
 }
