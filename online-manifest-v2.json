@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "TA-TOOL-V1",
-  "version": "1.6.3.4",
-  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.3.4/TA_Tool_Update_1.6.3.4.zip",
-  "sha256": "91CE6891257A91D4DF9738C87B411AAEF52F3AA7D71E406D805DA2F6F2B5D260",
-  "notes": "Hatch startup defaults: HPLAYER uses current layer and HPCOLOR is BYLAYER."
+  "version": "1.6.3.5",
+  "packageUrl": "https://github.com/theanhtranqb-lab/TA_TOOL/releases/download/v1.6.3.5/TA_Tool_Update_1.6.3.5.zip",
+  "sha256": "49A46210065D0EC20071266DA7BCEEB170AA8749885864B13C0AF5F8E843EA7B",
+  "notes": "Sửa tỷ lệ ký hiệu Hatch trong TKH/TKHSEL: giữ scale/spacing của hatch gốc, chỉ co giãn khung theo tỷ lệ bảng."
 }
